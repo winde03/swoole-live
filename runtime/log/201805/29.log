@@ -1,0 +1,219 @@
+---------------------------------------------------------------
+[ 2018-05-29T16:07:26+08:00 ] 172.16.16.10 218.104.225.2 GET /swoole-live/public/index
+[ info ] ltfnevergiveup.cn/swoole-live/public/index [运行时间：0.013056s][吞吐率：76.59req/s] [内存消耗：277.50kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=3534152704; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-29T16:07:30+08:00 ] 172.16.16.10 218.104.225.2 GET /swoole-live/public/index/index
+[ info ] ltfnevergiveup.cn/swoole-live/public/index/index [运行时间：0.000862s][吞吐率：1,160.25req/s] [内存消耗：145.55kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=3534152704; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-29T16:08:16+08:00 ] 172.16.16.10 218.104.225.2 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.003053s][吞吐率：327.55req/s] [内存消耗：145.48kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=3534152704; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-29T16:08:19+08:00 ] 172.16.16.10 218.104.225.2 GET /swoole-live/public/admin
+[ info ] ltfnevergiveup.cn/swoole-live/public/admin [运行时间：0.002588s][吞吐率：386.39req/s] [内存消耗：197.66kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=3534152704; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-29T16:10:56+08:00 ] 172.16.16.10 218.104.225.2 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.003133s][吞吐率：319.18req/s] [内存消耗：146.89kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=3534152704; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; SL_G_WPT_TO=zh-CN',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-29T16:10:58+08:00 ] 172.16.16.10 218.104.225.2 GET /swoole-live/public/index
+[ info ] ltfnevergiveup.cn/swoole-live/public/index [运行时间：0.000953s][吞吐率：1,049.10req/s] [内存消耗：145.52kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=3534152704; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; SL_G_WPT_TO=zh-CN',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-29T16:12:30+08:00 ] 172.16.16.10 218.104.225.2 GET /swoole-live/public/index/index
+[ info ] ltfnevergiveup.cn/swoole-live/public/index/index [运行时间：0.001085s][吞吐率：921.62req/s] [内存消耗：146.15kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=3534152704; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; SL_G_WPT_TO=zh-CN',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-29T16:12:35+08:00 ] 172.16.16.10 218.104.225.2 GET /swoole-live/public/index/index/sms
+[ info ] ltfnevergiveup.cn/swoole-live/public/index/index/sms [运行时间：0.033580s][吞吐率：29.78req/s] [内存消耗：621.75kb] [文件加载：68]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=3534152704; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; SL_G_WPT_TO=zh-CN',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function Aliyun\Core\Http\curl_init()[/var/www/swoole-live/extend/ali/lib/Core/Http/HttpHelper.php:13]
+---------------------------------------------------------------
+[ 2018-05-29T16:53:06+08:00 ] 172.16.16.10 64.233.172.225 GET /swoole-live/public/index/index
+[ info ] ltfnevergiveup.cn/swoole-live/public/index/index [运行时间：0.005373s][吞吐率：186.12req/s] [内存消耗：208.73kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon',
+  'accept-encoding' => 'gzip,deflate,br',
+  'x-forwarded-for' => '35.201.205.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-29T16:55:51+08:00 ] 172.16.16.10 64.233.172.253 GET /swoole-live/public/index/index
+[ info ] ltfnevergiveup.cn/swoole-live/public/index/index [运行时间：0.000970s][吞吐率：1,031.05req/s] [内存消耗：145.35kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'referer' => 'http://www.google.com/search',
+  'accept-language' => 'en-US',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/41.0.2272.118 Safari/537.36',
+  'accept-encoding' => 'gzip,deflate,br',
+  'x-forwarded-for' => '35.201.205.35',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-29T22:23:07+08:00 ] 172.16.16.10 218.104.225.2 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.013854s][吞吐率：72.18req/s] [内存消耗：277.60kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-29T22:51:28+08:00 ] 172.16.16.10 64.233.172.225 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.004287s][吞吐率：233.26req/s] [内存消耗：83.95kb] [文件加载：26]
+[ error ] [2]include(/var/www/swoole-live/config/code.php): failed to open stream: Permission denied[/var/www/swoole-live/thinkphp/library/think/Config.php:65]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-29T23:25:35+08:00 ] 172.16.16.10 64.233.172.225 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.002802s][吞吐率：356.90req/s] [内存消耗：17.73kb] [文件加载：26]
+[ error ] [2]include(/var/www/swoole-live/config/code.php): failed to open stream: Permission denied[/var/www/swoole-live/thinkphp/library/think/Config.php:65]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,48 @@
+[ 2018-05-28T08:40:07+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-28T08:40:07+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-28T08:40:07+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-28T08:40:07+08:00 ][ info ] [ PARAM ] array (
+  's' => 'index/index/index',
+)
+[ 2018-05-28T08:40:35+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-28T08:40:35+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-28T08:40:35+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-28T08:40:35+08:00 ][ info ] [ PARAM ] array (
+  's' => 'index/index/index',
+)
+[ 2018-05-28T08:40:35+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-28T08:40:35+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-28T08:40:35+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-28T08:40:35+08:00 ][ info ] [ PARAM ] array (
+  's' => 'index/index/index',
+)
+[ 2018-05-28T11:04:44+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-28T11:04:44+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-28T11:04:44+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-28T11:04:44+08:00 ][ info ] [ PARAM ] array (
+  's' => 'index/index/index',
+)
+[ 2018-05-28T11:17:01+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-28T11:17:01+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-28T11:17:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-28T11:17:01+08:00 ][ info ] [ PARAM ] array (
+  's' => 'index/index/index',
+)
+[ 2018-05-28T11:17:02+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-28T11:17:02+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-28T11:17:02+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-28T11:17:02+08:00 ][ info ] [ PARAM ] array (
+  's' => 'index/index/index',
+)

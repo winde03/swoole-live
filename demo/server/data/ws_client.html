@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ws_client</title>
+</head>
+<body>
+<h1>swoole-ws-test</h1>
+<script>
+    var wsServer = 'ws://ltfnevergiveup.cn:8812';
+    var websocket = new WebSocket(wsServer);
+    websocket.onopen = function (evt) {
+        websocket.send("hello!");
+        console.log("Connected to WebSocket server.");
+    };
+
+    websocket.onclose = function (evt) {
+        console.log("Disconnected");
+    };
+
+    websocket.onmessage = function (evt) {
+        console.log('Retrieved data from server: ' + evt.data);
+    };
+
+    websocket.onclose = function (evt) {
+        console.log('closed');
+    };
+
+    websocket.onerror = function (evt, e) {
+        console.log('Error occured: ' + evt.data);
+    };
+</script>
+</body>
+</html>

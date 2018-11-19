@@ -1,0 +1,1495 @@
+[ 2018-05-30T00:22:21+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:22:21+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:22:21+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:22:21+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '42',
+  'code' => '142',
+)
+[ 2018-05-30T00:22:34+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Constant APP_PATH already defined in /var/www/swoole-live/server/http-server.php:19
+Stack trace:
+#0 /var/www/swoole-live/server/http-server.php(19): think\Error::appError(8, 'Constant APP_PA...', '/var/www/swoole...', 19, Array)
+#1 {main}
+  thrown[/var/www/swoole-live/server/http-server.php:19]
+[ 2018-05-30T00:23:25+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:23:25+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:23:25+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:23:25+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '14',
+  'code' => '124',
+)
+[ 2018-05-30T00:23:31+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Constant APP_PATH already defined in /var/www/swoole-live/server/http-server.php:19
+Stack trace:
+#0 /var/www/swoole-live/server/http-server.php(19): think\Error::appError(8, 'Constant APP_PA...', '/var/www/swoole...', 19, Array)
+#1 {main}
+  thrown[/var/www/swoole-live/server/http-server.php:19]
+[ 2018-05-30T00:23:39+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:23:39+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:23:39+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:23:39+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '346',
+)
+[ 2018-05-30T00:26:52+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:26:52+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:26:52+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:26:52+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '235',
+  'code' => '235',
+)
+[ 2018-05-30T00:27:09+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T00:27:09+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:27:09+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:27:09+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '235',
+  'code' => '235',
+)
+[ 2018-05-30T00:27:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T00:27:36+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:27:36+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:27:36+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '235',
+  'code' => '235',
+)
+[ 2018-05-30T00:27:44+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T00:27:44+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:27:44+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:27:44+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '235',
+  'code' => '235',
+)
+[ 2018-05-30T00:28:58+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:28:58+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:28:58+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:28:58+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T00:37:18+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:37:18+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:37:18+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:37:18+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '346',
+  'code' => '436',
+)
+[ 2018-05-30T00:37:18+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T00:38:33+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:38:33+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:38:33+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:38:33+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '213',
+  'code' => '124',
+)
+[ 2018-05-30T00:38:33+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T00:39:39+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:39:39+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:39:39+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:39:39+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '124',
+  'code' => '12',
+)
+[ 2018-05-30T00:39:39+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T00:40:00+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:40:00+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:40:00+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:40:00+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '124',
+  'code' => '12',
+)
+[ 2018-05-30T00:40:00+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T00:41:03+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:41:03+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:41:03+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:41:03+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '124',
+  'code' => '124214',
+)
+[ 2018-05-30T00:41:03+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T00:41:10+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:41:10+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:41:10+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:41:10+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '12412',
+  'code' => '5125',
+)
+[ 2018-05-30T00:41:10+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T00:41:18+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:41:18+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:41:18+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:41:18+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => 'asd',
+  'code' => 'qwd',
+)
+[ 2018-05-30T00:41:18+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T00:41:18+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:41:18+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:41:18+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => 'asd',
+  'code' => 'qwd',
+)
+[ 2018-05-30T00:41:31+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T00:41:31+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:41:31+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:41:31+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => 'asd',
+  'code' => 'qwd',
+)
+[ 2018-05-30T00:41:31+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T00:41:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:41:36+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:41:36+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:41:36+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '123124',
+  'code' => '124',
+)
+[ 2018-05-30T00:41:36+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T00:41:38+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:41:38+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:41:38+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:41:38+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '2141',
+  'code' => '24',
+)
+[ 2018-05-30T00:41:38+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T00:51:24+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:51:24+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:51:24+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:51:24+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T00:51:30+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T00:51:30+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:51:30+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:51:30+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T00:51:30+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T00:57:29+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T00:57:29+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:57:29+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:57:29+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T00:57:35+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T00:57:35+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:57:35+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:57:35+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T00:57:40+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T00:57:40+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T00:57:40+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T00:57:40+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T00:57:40+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T01:00:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:00:16+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:00:16+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:00:16+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '124124',
+  'code' => '124',
+)
+[ 2018-05-30T01:00:16+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T01:05:50+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:05:50+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:05:50+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:05:50+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '346',
+  'code' => '346',
+)
+[ 2018-05-30T01:05:50+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T01:05:58+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:05:58+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:05:58+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:05:58+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '36',
+  'code' => '3643',
+)
+[ 2018-05-30T01:05:58+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T01:07:20+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:07:20+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:07:20+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:07:20+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '36',
+  'code' => '6',
+)
+[ 2018-05-30T01:07:20+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T01:09:32+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:09:32+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:09:32+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:09:32+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '124',
+  'code' => '41',
+)
+[ 2018-05-30T01:09:32+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T01:10:39+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:10:39+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:10:39+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:10:39+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '124214',
+  'code' => '124',
+)
+[ 2018-05-30T01:10:39+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T01:16:19+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:16:19+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:16:19+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:16:19+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '4124',
+  'code' => '214',
+)
+[ 2018-05-30T01:16:19+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T01:17:09+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:17:09+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:17:09+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:17:09+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T01:17:12+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:17:12+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:17:12+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:17:12+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T01:17:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:17:15+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:17:15+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:17:15+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T01:17:15+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T01:20:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:20:36+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:20:36+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:20:36+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '435',
+  'code' => '345',
+)
+[ 2018-05-30T01:20:36+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T01:20:42+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:20:42+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:20:42+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:20:42+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '235',
+  'code' => '235',
+)
+[ 2018-05-30T01:20:42+08:00 ][ error ] [1]Uncaught Error: Class 'Redis' not found in /var/www/swoole-live/application/common/lib/redis/Predis.php:18
+Stack trace:
+#0 /var/www/swoole-live/application/common/lib/redis/Predis.php(11): app\common\lib\redis\Predis->__construct()
+#1 /var/www/swoole-live/application/index/controller/Login.php(17): app\common\lib\redis\Predis::getInstance()
+#2 [internal function]: app\index\controller\Login->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Login), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http-server.php(45): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/common/lib/redis/Predis.php:18]
+[ 2018-05-30T01:23:03+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:23:03+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:23:03+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:23:03+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '124124',
+  'code' => '',
+)
+[ 2018-05-30T01:23:04+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:23:04+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:23:04+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:23:04+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '124124',
+  'code' => '',
+)
+[ 2018-05-30T01:23:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:23:16+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:23:16+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:23:16+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '124124',
+  'code' => '',
+)
+[ 2018-05-30T01:23:51+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:23:51+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:23:51+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:23:51+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T01:23:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:23:57+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:23:57+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:23:57+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T01:24:02+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:24:02+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:24:02+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:24:02+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T01:24:22+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:24:22+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:24:22+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:24:22+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T01:24:37+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:24:37+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:24:37+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:24:37+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '',
+  'code' => '',
+)
+[ 2018-05-30T01:24:45+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:24:45+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:24:45+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:24:45+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '124',
+  'code' => '515',
+)
+[ 2018-05-30T01:25:13+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:25:13+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:25:13+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:25:13+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '124',
+  'code' => '515',
+)
+[ 2018-05-30T01:25:20+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:25:20+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:25:20+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:25:20+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '4121',
+  'code' => '142',
+)
+[ 2018-05-30T01:25:38+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:25:38+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:25:38+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:25:38+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '234324',
+  'code' => '234',
+)
+[ 2018-05-30T01:25:55+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:25:55+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:25:55+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:25:55+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '234324',
+  'code' => '234',
+)
+[ 2018-05-30T01:27:46+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:27:46+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:27:46+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:27:46+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '234324',
+  'code' => '234',
+)
+[ 2018-05-30T01:29:02+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T01:29:02+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:29:02+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:29:02+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+  'code' => '123',
+)
+[ 2018-05-30T01:29:05+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:29:05+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:29:05+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:29:05+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+  'code' => '123',
+)
+[ 2018-05-30T01:46:39+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T01:46:39+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T01:46:39+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T01:46:39+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+  'code' => '123',
+)
+[ 2018-05-30T13:58:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T13:58:57+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T13:58:57+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T13:58:57+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T13:59:14+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T13:59:14+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T13:59:14+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T13:59:14+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T13:59:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T13:59:16+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T13:59:16+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T13:59:16+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T13:59:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T13:59:49+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T13:59:49+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T13:59:49+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T13:59:54+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T13:59:54+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T13:59:54+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T13:59:54+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T14:00:00+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:00:00+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:00:00+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:00:00+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T14:00:25+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:00:25+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:00:25+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:00:25+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T14:01:42+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:01:42+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:01:42+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:01:42+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T14:02:04+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T14:02:04+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:02:04+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:02:04+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+  'code' => '8764',
+)
+[ 2018-05-30T14:03:20+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T14:03:20+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:03:20+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:03:20+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T14:03:31+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:03:31+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:03:31+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:03:31+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T14:03:55+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T14:03:55+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:03:55+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:03:55+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T14:04:06+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:04:06+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:04:06+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:04:06+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T14:04:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T14:04:36+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:04:36+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:04:36+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+  'code' => '1042',
+)
+[ 2018-05-30T14:04:56+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T14:04:56+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:04:56+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:04:56+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+  'code' => '1042',
+)
+[ 2018-05-30T14:05:30+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T14:05:30+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:05:30+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:05:30+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+  'code' => '1042',
+)
+[ 2018-05-30T14:21:02+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T14:21:02+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:02+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:02+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:02+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:02+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:02+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:02+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:05+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:05+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:05+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:05+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:05+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:05+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:05+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:05+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:08+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:08+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:08+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:08+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:08+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:08+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:08+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:08+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:22+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:22+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:22+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:22+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:22+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:22+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:22+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:22+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:23+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:23+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:23+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:23+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:23+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:23+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:23+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:23+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:36+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:36+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:36+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:36+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:36+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:36+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:40+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:40+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:40+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:40+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:21:40+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:21:40+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:21:40+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:21:40+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:22:04+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:22:04+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:22:04+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:22:04+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:22:04+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:22:04+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:22:04+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:22:04+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:22:08+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:22:08+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:22:08+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:22:08+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:12+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T14:24:12+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:12+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:12+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:13+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:13+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:13+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:13+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:18+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:18+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:18+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:18+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:18+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:18+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:18+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:18+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:20+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:20+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:20+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:20+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:20+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:20+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:20+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:20+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:23+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:23+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:23+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:23+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:23+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:23+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:23+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:23+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:43+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:43+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:43+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:43+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:43+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:43+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:43+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:43+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:46+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:46+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:46+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:46+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:46+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:46+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:46+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:46+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T14:24:50+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:50+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:50+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:50+08:00 ][ info ] [ PARAM ] array (
+  'a' => '1',
+)
+[ 2018-05-30T14:24:50+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:50+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:50+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:50+08:00 ][ info ] [ PARAM ] array (
+  'a' => '1',
+)
+[ 2018-05-30T14:24:53+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:53+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:53+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:53+08:00 ][ info ] [ PARAM ] array (
+  'a' => '1',
+)
+[ 2018-05-30T14:24:54+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:54+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:54+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:54+08:00 ][ info ] [ PARAM ] array (
+  'a' => '1',
+)
+[ 2018-05-30T14:24:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:57+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:57+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:57+08:00 ][ info ] [ PARAM ] array (
+  'a' => '1',
+)
+[ 2018-05-30T14:24:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T14:24:57+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T14:24:57+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T14:24:57+08:00 ][ info ] [ PARAM ] array (
+  'a' => '1',
+)
+[ 2018-05-30T16:50:10+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T16:50:10+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T16:50:10+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T16:50:10+08:00 ][ info ] [ PARAM ] array (
+  'a' => '1',
+)
+[ 2018-05-30T17:39:44+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T17:39:44+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T17:39:44+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T17:39:44+08:00 ][ info ] [ PARAM ] array (
+  'a' => '1',
+)
+[ 2018-05-30T18:58:38+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T18:58:38+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T18:58:38+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T18:58:38+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T18:58:39+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T18:58:39+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T18:58:39+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T18:58:39+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T18:58:47+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T18:58:47+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T18:58:47+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T18:58:47+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T18:58:47+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T18:58:47+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T18:58:47+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T18:58:47+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T18:59:44+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T18:59:44+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T18:59:44+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T18:59:44+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T18:59:44+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T18:59:44+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T18:59:44+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T18:59:44+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T18:59:53+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T18:59:53+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T18:59:53+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T18:59:53+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T18:59:53+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T18:59:53+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T18:59:53+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T18:59:53+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T18:59:54+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T18:59:54+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T18:59:54+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T18:59:54+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T18:59:55+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T18:59:55+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T18:59:55+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T18:59:55+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T18:59:55+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T18:59:55+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T18:59:55+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T18:59:55+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T18:59:55+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T18:59:55+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T18:59:55+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T18:59:55+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T19:00:01+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T19:00:01+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T19:00:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T19:00:01+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T19:00:01+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T19:00:01+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T19:00:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T19:00:01+08:00 ][ info ] [ PARAM ] array (
+  'a' => 's',
+)
+[ 2018-05-30T19:02:42+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T19:02:42+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T19:02:42+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T19:02:42+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T19:02:42+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T19:02:42+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T19:02:42+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T19:02:42+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:01:55+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:01:55+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:01:55+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:01:55+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:01:55+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T22:01:55+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:01:55+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:01:55+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:03:07+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:03:07+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:03:07+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:03:07+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T22:03:07+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Swoole\Server::task(): task method can't be executed, please set 'task_worker_num' > 0. in /var/www/swoole-live/application/index/controller/Send.php:29
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'Swoole\\Server::...', '/var/www/swoole...', 29, Array)
+#1 /var/www/swoole-live/application/index/controller/Send.php(29): Swoole\Server->task(Array)
+#2 [internal function]: app\index\controller\Send->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Send), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http.php(57): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/index/controller/Send.php:29]
+[ 2018-05-30T22:04:28+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:04:28+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:04:28+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:04:28+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T22:04:28+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Swoole\Server::task(): task method can't be executed, please set 'task_worker_num' > 0. in /var/www/swoole-live/application/index/controller/Send.php:29
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'Swoole\\Server::...', '/var/www/swoole...', 29, Array)
+#1 /var/www/swoole-live/application/index/controller/Send.php(29): Swoole\Server->task(Array)
+#2 [internal function]: app\index\controller\Send->index()
+#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\index\controller\Send), Array)
+#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/swoole-live/server/http.php(57): think\App->run()
+#8 {main}
+  thrown[/var/www/swoole-live/application/index/controller/Send.php:29]
+[ 2018-05-30T22:05:14+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:05:14+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:05:14+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:05:14+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T22:05:14+08:00 ][ error ] [1]Uncaught Error: Class 'app\common\lib\ali\Sms' not found in /var/www/swoole-live/server/http.php:73
+Stack trace:
+#0 [internal function]: Http->onTask(Object(Swoole\Http\Server), 0, 0, Array)
+#1 /var/www/swoole-live/server/http.php(24): Swoole\Http\Server->start()
+#2 /var/www/swoole-live/server/http.php(92): Http->__construct()
+#3 {main}
+  thrown[/var/www/swoole-live/server/http.php:73]
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:08:30+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:09:01+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-05-30T22:09:08+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T22:09:08+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:09:08+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:09:08+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)
+[ 2018-05-30T22:39:12+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-30T22:39:12+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-05-30T22:39:12+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-05-30T22:39:12+08:00 ][ info ] [ PARAM ] array (
+  'phone_num' => '15606073818',
+)

@@ -1,0 +1,45 @@
+---------------------------------------------------------------
+[ 2018-06-01T00:56:28+08:00 ] 172.16.16.10 119.147.207.152 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.002942s][吞吐率：339.92req/s] [内存消耗：18.49kb] [文件加载：26]
+[ error ] [2]include(/var/www/swoole-live/config/code.php): failed to open stream: Permission denied[/var/www/swoole-live/thinkphp/library/think/Config.php:65]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-01T07:33:09+08:00 ] 172.16.16.10 64.233.172.251 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.006538s][吞吐率：152.95req/s] [内存消耗：84.05kb] [文件加载：26]
+[ error ] [2]include(/var/www/swoole-live/config/code.php): failed to open stream: Permission denied[/var/www/swoole-live/thinkphp/library/think/Config.php:65]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-01T07:33:10+08:00 ] 172.16.16.10 64.233.172.253 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.002825s][吞吐率：353.98req/s] [内存消耗：18.48kb] [文件加载：26]
+[ error ] [2]include(/var/www/swoole-live/config/code.php): failed to open stream: Permission denied[/var/www/swoole-live/thinkphp/library/think/Config.php:65]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-01T07:33:12+08:00 ] 172.16.16.10 64.233.172.225 GET /swoole-live/public/index/index
+[ info ] ltfnevergiveup.cn/swoole-live/public/index/index [运行时间：0.002832s][吞吐率：353.12req/s] [内存消耗：18.49kb] [文件加载：26]
+[ error ] [2]include(/var/www/swoole-live/config/code.php): failed to open stream: Permission denied[/var/www/swoole-live/thinkphp/library/think/Config.php:65]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-01T08:48:09+08:00 ] 172.16.16.10 64.233.172.225 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.002816s][吞吐率：355.12req/s] [内存消耗：18.48kb] [文件加载：26]
+[ error ] [2]include(/var/www/swoole-live/config/code.php): failed to open stream: Permission denied[/var/www/swoole-live/thinkphp/library/think/Config.php:65]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-01T10:14:54+08:00 ] 172.16.16.10 66.102.7.138 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.002941s][吞吐率：340.01req/s] [内存消耗：18.48kb] [文件加载：26]
+[ error ] [2]include(/var/www/swoole-live/config/code.php): failed to open stream: Permission denied[/var/www/swoole-live/thinkphp/library/think/Config.php:65]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-01T23:25:07+08:00 ] 172.16.16.10 64.233.172.225 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.000820s][吞吐率：1,219.27req/s] [内存消耗：17.74kb] [文件加载：26]
+[ error ] [2]include(/var/www/swoole-live/config/code.php): failed to open stream: Permission denied[/var/www/swoole-live/thinkphp/library/think/Config.php:65]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-01T23:25:08+08:00 ] 172.16.16.10 64.233.172.253 GET /swoole-live/public/index/index
+[ info ] ltfnevergiveup.cn/swoole-live/public/index/index [运行时间：0.000854s][吞吐率：1,170.94req/s] [内存消耗：17.76kb] [文件加载：26]
+[ error ] [2]include(/var/www/swoole-live/config/code.php): failed to open stream: Permission denied[/var/www/swoole-live/thinkphp/library/think/Config.php:65]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-01T23:25:08+08:00 ] 172.16.16.10 64.233.172.253 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.002790s][吞吐率：358.43req/s] [内存消耗：17.73kb] [文件加载：26]
+[ error ] [2]include(/var/www/swoole-live/config/code.php): failed to open stream: Permission denied[/var/www/swoole-live/thinkphp/library/think/Config.php:65]
+[ info ] [ LOG ] INIT File
