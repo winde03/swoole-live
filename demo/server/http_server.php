@@ -5,7 +5,7 @@ $http = new swoole_http_server("0.0.0.0", 8811);
 $http->set(
     [
         'enable_static_handler' => true,
-        'document_root' => "/var/www/swoole-live/demo/server/data",
+        'document_root' => "/var/www/html/swoole-live/demo/server/data",
     ]
 );//加载静态资源，如果有资源直接将其呈现，不走下面的流程 http://ltfnevergiveup.cn:8811/index.html
 $http->on('request', function ($request, $response) {

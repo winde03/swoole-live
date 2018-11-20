@@ -8,7 +8,7 @@ $server = new swoole_websocket_server("0.0.0.0", 8812);
 $server->set(
     [
         'enable_static_handler' => true,
-        'document_root' => "/var/www/swoole-live/demo/server/data",
+        'document_root' => "/var/www/html/swoole-live/demo/server/data",
     ]
 );
 //监听websocket连接打开事件

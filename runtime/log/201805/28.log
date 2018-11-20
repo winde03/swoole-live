@@ -1,7 +1,7 @@
 ---------------------------------------------------------------
 [ 2018-05-28T12:21:01+08:00 ] 172.16.16.10 203.208.60.182 GET /swoole-live/public/
 [ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.011739s][吞吐率：85.19req/s] [内存消耗：276.84kb] [文件加载：43]
-[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ ROUTE ] array (
 )
 [ info ] [ HEADER ] array (

@@ -3,7 +3,7 @@ $http = new swoole_http_server("0.0.0.0", 8811);
 
 $http->set([
     'enable_static_handler' => true,
-    'document_root' => "/var/www/swoole-live/public/static",
+    'document_root' => "/var/www/html/swoole-live/public/static",
     'woker_num' => 5,
 ]);
 

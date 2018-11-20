@@ -1,4 +1,4 @@
-[ 2018-05-25T22:21:21+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:21:21+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-05-25T22:21:21+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -6,42 +6,42 @@
 )
 [ 2018-05-25T22:21:21+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-05-25T22:21:22+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:21:22+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:21:22+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:21:22+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-05-25T22:21:22+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-05-25T22:21:24+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:21:24+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:21:24+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:21:24+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-05-25T22:21:24+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-05-25T22:21:24+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:21:24+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:21:24+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:21:24+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-05-25T22:21:24+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-05-25T22:23:42+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:23:42+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:23:42+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:23:42+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-05-25T22:23:42+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-05-25T22:23:43+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:23:43+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:23:43+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:23:43+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-05-25T22:23:43+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-05-25T22:23:45+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:23:45+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:23:45+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:23:45+08:00 ][ info ] [ HEADER ] array (
@@ -49,7 +49,7 @@
 [ 2018-05-25T22:23:45+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:23:45+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:23:45+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:23:45+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:23:45+08:00 ][ info ] [ HEADER ] array (
@@ -57,7 +57,7 @@
 [ 2018-05-25T22:23:45+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:23:51+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:23:51+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-05-25T22:23:51+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -66,7 +66,7 @@
 [ 2018-05-25T22:23:51+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:23:51+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:23:51+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:23:51+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:23:51+08:00 ][ info ] [ HEADER ] array (
@@ -74,7 +74,7 @@
 [ 2018-05-25T22:23:51+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:24:11+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:24:11+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:24:11+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:24:11+08:00 ][ info ] [ HEADER ] array (
@@ -82,7 +82,7 @@
 [ 2018-05-25T22:24:11+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:24:11+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:24:11+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:24:11+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:24:11+08:00 ][ info ] [ HEADER ] array (
@@ -90,7 +90,7 @@
 [ 2018-05-25T22:24:11+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:24:23+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:24:23+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:24:23+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:24:23+08:00 ][ info ] [ HEADER ] array (
@@ -98,7 +98,7 @@
 [ 2018-05-25T22:24:23+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:24:23+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:24:23+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:24:23+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:24:23+08:00 ][ info ] [ HEADER ] array (
@@ -106,7 +106,7 @@
 [ 2018-05-25T22:24:23+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:24:33+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:24:33+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:24:33+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:24:33+08:00 ][ info ] [ HEADER ] array (
@@ -114,7 +114,7 @@
 [ 2018-05-25T22:24:33+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:24:33+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:24:33+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:24:33+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:24:33+08:00 ][ info ] [ HEADER ] array (
@@ -122,7 +122,7 @@
 [ 2018-05-25T22:24:33+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:24:40+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:24:40+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:24:40+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:24:40+08:00 ][ info ] [ HEADER ] array (
@@ -130,7 +130,7 @@
 [ 2018-05-25T22:24:40+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:24:41+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:24:41+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:24:41+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:24:41+08:00 ][ info ] [ HEADER ] array (
@@ -138,7 +138,7 @@
 [ 2018-05-25T22:24:41+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:25:13+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:25:13+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-05-25T22:25:13+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -147,7 +147,7 @@
 [ 2018-05-25T22:25:13+08:00 ][ info ] [ PARAM ] array (
   0 => '1',
 )
-[ 2018-05-25T22:25:13+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:25:13+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:25:13+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:25:13+08:00 ][ info ] [ HEADER ] array (
@@ -155,12 +155,12 @@
 [ 2018-05-25T22:25:13+08:00 ][ info ] [ PARAM ] array (
   0 => '1',
 )
-[ 2018-05-25T22:25:13+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined variable: res in /var/www/swoole-live/server/http-server.php:53
+[ 2018-05-25T22:25:13+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined variable: res in /var/www/html/swoole-live/server/http-server.php:53
 Stack trace:
-#0 /var/www/swoole-live/server/http-server.php(53): think\Error::appError(8, 'Undefined varia...', '/var/www/swoole...', 53, Array)
+#0 /var/www/html/swoole-live/server/http-server.php(53): think\Error::appError(8, 'Undefined varia...', '/var/www/swoole...', 53, Array)
 #1 {main}
-  thrown[/var/www/swoole-live/server/http-server.php:53]
-[ 2018-05-25T22:25:13+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+  thrown[/var/www/html/swoole-live/server/http-server.php:53]
+[ 2018-05-25T22:25:13+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-05-25T22:25:13+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -169,7 +169,7 @@ Stack trace:
 [ 2018-05-25T22:25:13+08:00 ][ info ] [ PARAM ] array (
   0 => '1',
 )
-[ 2018-05-25T22:25:14+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:25:14+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:25:14+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:25:14+08:00 ][ info ] [ HEADER ] array (
@@ -177,12 +177,12 @@ Stack trace:
 [ 2018-05-25T22:25:14+08:00 ][ info ] [ PARAM ] array (
   0 => '1',
 )
-[ 2018-05-25T22:25:14+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined variable: res in /var/www/swoole-live/server/http-server.php:53
+[ 2018-05-25T22:25:14+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined variable: res in /var/www/html/swoole-live/server/http-server.php:53
 Stack trace:
-#0 /var/www/swoole-live/server/http-server.php(53): think\Error::appError(8, 'Undefined varia...', '/var/www/swoole...', 53, Array)
+#0 /var/www/html/swoole-live/server/http-server.php(53): think\Error::appError(8, 'Undefined varia...', '/var/www/swoole...', 53, Array)
 #1 {main}
-  thrown[/var/www/swoole-live/server/http-server.php:53]
-[ 2018-05-25T22:25:14+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+  thrown[/var/www/html/swoole-live/server/http-server.php:53]
+[ 2018-05-25T22:25:14+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-05-25T22:25:14+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -191,7 +191,7 @@ Stack trace:
 [ 2018-05-25T22:25:14+08:00 ][ info ] [ PARAM ] array (
   0 => '1',
 )
-[ 2018-05-25T22:25:14+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:25:14+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:25:14+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:25:14+08:00 ][ info ] [ HEADER ] array (
@@ -199,7 +199,7 @@ Stack trace:
 [ 2018-05-25T22:25:14+08:00 ][ info ] [ PARAM ] array (
   0 => '1',
 )
-[ 2018-05-25T22:25:14+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:25:14+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:25:14+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:25:14+08:00 ][ info ] [ HEADER ] array (
@@ -207,12 +207,12 @@ Stack trace:
 [ 2018-05-25T22:25:14+08:00 ][ info ] [ PARAM ] array (
   0 => '1',
 )
-[ 2018-05-25T22:25:14+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined variable: res in /var/www/swoole-live/server/http-server.php:53
+[ 2018-05-25T22:25:14+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined variable: res in /var/www/html/swoole-live/server/http-server.php:53
 Stack trace:
-#0 /var/www/swoole-live/server/http-server.php(53): think\Error::appError(8, 'Undefined varia...', '/var/www/swoole...', 53, Array)
+#0 /var/www/html/swoole-live/server/http-server.php(53): think\Error::appError(8, 'Undefined varia...', '/var/www/swoole...', 53, Array)
 #1 {main}
-  thrown[/var/www/swoole-live/server/http-server.php:53]
-[ 2018-05-25T22:25:19+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+  thrown[/var/www/html/swoole-live/server/http-server.php:53]
+[ 2018-05-25T22:25:19+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-05-25T22:25:19+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -221,7 +221,7 @@ Stack trace:
 [ 2018-05-25T22:25:19+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:25:19+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:25:19+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:25:19+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:25:19+08:00 ][ info ] [ HEADER ] array (
@@ -229,12 +229,12 @@ Stack trace:
 [ 2018-05-25T22:25:19+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:25:19+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined variable: res in /var/www/swoole-live/server/http-server.php:53
+[ 2018-05-25T22:25:19+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined variable: res in /var/www/html/swoole-live/server/http-server.php:53
 Stack trace:
-#0 /var/www/swoole-live/server/http-server.php(53): think\Error::appError(8, 'Undefined varia...', '/var/www/swoole...', 53, Array)
+#0 /var/www/html/swoole-live/server/http-server.php(53): think\Error::appError(8, 'Undefined varia...', '/var/www/swoole...', 53, Array)
 #1 {main}
-  thrown[/var/www/swoole-live/server/http-server.php:53]
-[ 2018-05-25T22:55:19+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+  thrown[/var/www/html/swoole-live/server/http-server.php:53]
+[ 2018-05-25T22:55:19+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-05-25T22:55:19+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -243,11 +243,11 @@ Stack trace:
 [ 2018-05-25T22:55:19+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:55:19+08:00 ][ error ] [1]Uncaught Error: Call to undefined method Swoole\Http\Request::action() in /var/www/swoole-live/server/http-server.php:49
+[ 2018-05-25T22:55:19+08:00 ][ error ] [1]Uncaught Error: Call to undefined method Swoole\Http\Request::action() in /var/www/html/swoole-live/server/http-server.php:49
 Stack trace:
 #0 {main}
-  thrown[/var/www/swoole-live/server/http-server.php:49]
-[ 2018-05-25T22:56:18+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+  thrown[/var/www/html/swoole-live/server/http-server.php:49]
+[ 2018-05-25T22:56:18+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-05-25T22:56:18+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -256,7 +256,7 @@ Stack trace:
 [ 2018-05-25T22:56:18+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:56:18+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:56:18+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:56:18+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:56:18+08:00 ][ info ] [ HEADER ] array (
@@ -264,7 +264,7 @@ Stack trace:
 [ 2018-05-25T22:56:18+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:56:25+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:56:25+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:56:25+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:56:25+08:00 ][ info ] [ HEADER ] array (
@@ -272,7 +272,7 @@ Stack trace:
 [ 2018-05-25T22:56:25+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:56:26+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:56:26+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:56:26+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:56:26+08:00 ][ info ] [ HEADER ] array (
@@ -280,7 +280,7 @@ Stack trace:
 [ 2018-05-25T22:56:26+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:56:28+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:56:28+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:56:28+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:56:28+08:00 ][ info ] [ HEADER ] array (
@@ -288,7 +288,7 @@ Stack trace:
 [ 2018-05-25T22:56:28+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:56:29+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:56:29+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:56:29+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:56:29+08:00 ][ info ] [ HEADER ] array (
@@ -296,7 +296,7 @@ Stack trace:
 [ 2018-05-25T22:56:29+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:56:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:56:57+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:56:57+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:56:57+08:00 ][ info ] [ HEADER ] array (
@@ -304,7 +304,7 @@ Stack trace:
 [ 2018-05-25T22:56:57+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:56:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:56:57+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:56:57+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:56:57+08:00 ][ info ] [ HEADER ] array (
@@ -312,7 +312,7 @@ Stack trace:
 [ 2018-05-25T22:56:57+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:57:06+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:57:06+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:57:06+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:57:06+08:00 ][ info ] [ HEADER ] array (
@@ -320,7 +320,7 @@ Stack trace:
 [ 2018-05-25T22:57:06+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:57:06+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:57:06+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:57:06+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:57:06+08:00 ][ info ] [ HEADER ] array (
@@ -328,7 +328,7 @@ Stack trace:
 [ 2018-05-25T22:57:06+08:00 ][ info ] [ PARAM ] array (
   'a' => '1',
 )
-[ 2018-05-25T22:58:44+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:58:44+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-05-25T22:58:44+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -336,14 +336,14 @@ Stack trace:
 )
 [ 2018-05-25T22:58:44+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-05-25T22:58:44+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T22:58:44+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T22:58:44+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T22:58:44+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-05-25T22:58:44+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-05-25T23:18:26+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T23:18:26+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-05-25T23:18:26+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -351,14 +351,14 @@ Stack trace:
 )
 [ 2018-05-25T23:18:26+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-05-25T23:18:26+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T23:18:26+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T23:18:26+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T23:18:26+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-05-25T23:18:26+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-05-25T23:39:22+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T23:39:22+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-05-25T23:39:22+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -366,14 +366,14 @@ Stack trace:
 )
 [ 2018-05-25T23:39:22+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-05-25T23:39:22+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T23:39:22+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T23:39:22+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T23:39:22+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-05-25T23:39:22+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-05-25T23:39:23+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T23:39:23+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T23:39:23+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T23:39:23+08:00 ][ info ] [ HEADER ] array (
@@ -381,7 +381,7 @@ Stack trace:
 [ 2018-05-25T23:39:23+08:00 ][ info ] [ PARAM ] array (
   's' => 'index/index/index',
 )
-[ 2018-05-25T23:39:23+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-05-25T23:39:23+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-05-25T23:39:23+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-05-25T23:39:23+08:00 ][ info ] [ HEADER ] array (

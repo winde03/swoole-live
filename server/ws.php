@@ -14,11 +14,12 @@ class Ws
 
     public function __construct()
     {
+        // 获取 key 有值 del
         $this->ws = new swoole_websocket_server(self::HOST, self::PORT);
 
         $this->ws->set([
             'enable_static_handler' => true,
-            'document_root' => "/var/www/swoole-live/public/static",
+            'document_root' => "/var/www/html/swoole-live/public/static",
             'task_worker_num' => 4,
             'worker_num' => 4
         ]);

@@ -1,18 +1,10 @@
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
-[ info ] [ LOG ] INIT File
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ ROUTE ] array (
-)
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ HEADER ] array (
-)
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ PARAM ] array (
-)
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -20,7 +12,7 @@
 )
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -28,7 +20,7 @@
 )
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -36,7 +28,7 @@
 )
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -44,7 +36,7 @@
 )
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -52,13 +44,7 @@
 )
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ ROUTE ] array (
-)
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ HEADER ] array (
-)
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ PARAM ] array (
-)
-[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -72,46 +58,52 @@
 )
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ PARAM ] array (
 )
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:07:36+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:07:41+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-06-04T13:07:36+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-06-04T13:07:41+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:07:41+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:07:41+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:07:41+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:07:41+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:07:41+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:07:41+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:07:41+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:07:41+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:07:51+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:07:51+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:07:51+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:07:51+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:07:51+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
-[ info ] [ LOG ] INIT File
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ ROUTE ] array (
-)
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ HEADER ] array (
-)
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ PARAM ] array (
-)
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:32:49+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -119,7 +111,7 @@
 )
 [ 2018-06-04T13:32:49+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:32:49+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -127,13 +119,7 @@
 )
 [ 2018-06-04T13:32:49+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
-[ info ] [ LOG ] INIT File
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ ROUTE ] array (
-)
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ HEADER ] array (
-)
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:32:49+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -141,9 +127,13 @@
 )
 [ 2018-06-04T13:32:49+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ PARAM ] array (
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ ROUTE ] array (
 )
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:32:49+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -151,7 +141,9 @@
 )
 [ 2018-06-04T13:32:49+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:32:49+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -159,7 +151,15 @@
 )
 [ 2018-06-04T13:32:49+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-06-04T13:32:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:32:49+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -179,14 +179,14 @@
 )
 [ 2018-06-04T13:32:49+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:33:45+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:33:45+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:33:45+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:33:45+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:33:45+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:33:55+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:33:55+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:33:55+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:33:55+08:00 ][ info ] [ HEADER ] array (
@@ -196,18 +196,18 @@
   'team_id' => '1',
   'content' => '34',
 )
-[ 2018-06-04T13:33:55+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined index: http_server in /var/www/swoole-live/application/admin/controller/Live.php:13
+[ 2018-06-04T13:33:55+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined index: http_server in /var/www/html/swoole-live/application/admin/controller/Live.php:13
 Stack trace:
-#0 /var/www/swoole-live/application/admin/controller/Live.php(13): think\Error::appError(8, 'Undefined index...', '/var/www/swoole...', 13, Array)
+#0 /var/www/html/swoole-live/application/admin/controller/Live.php(13): think\Error::appError(8, 'Undefined index...', '/var/www/swoole...', 13, Array)
 #1 [internal function]: app\admin\controller\Live->push()
-#2 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
-#3 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
-#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
-#5 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
-#6 /var/www/swoole-live/server/ws.php(75): think\App->run()
+#2 /var/www/html/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
+#3 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#4 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#5 /var/www/html/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#6 /var/www/html/swoole-live/server/ws.php(75): think\App->run()
 #7 {main}
-  thrown[/var/www/swoole-live/application/admin/controller/Live.php:13]
-[ 2018-06-04T13:33:55+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+  thrown[/var/www/html/swoole-live/application/admin/controller/Live.php:13]
+[ 2018-06-04T13:33:55+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:33:55+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -215,7 +215,7 @@ Stack trace:
 )
 [ 2018-06-04T13:33:55+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:34:11+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:34:11+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:34:11+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:34:11+08:00 ][ info ] [ HEADER ] array (
@@ -225,18 +225,18 @@ Stack trace:
   'team_id' => '1',
   'content' => '34',
 )
-[ 2018-06-04T13:34:11+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined index: http_server in /var/www/swoole-live/application/admin/controller/Live.php:13
+[ 2018-06-04T13:34:11+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined index: http_server in /var/www/html/swoole-live/application/admin/controller/Live.php:13
 Stack trace:
-#0 /var/www/swoole-live/application/admin/controller/Live.php(13): think\Error::appError(8, 'Undefined index...', '/var/www/swoole...', 13, Array)
+#0 /var/www/html/swoole-live/application/admin/controller/Live.php(13): think\Error::appError(8, 'Undefined index...', '/var/www/swoole...', 13, Array)
 #1 [internal function]: app\admin\controller\Live->push()
-#2 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
-#3 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
-#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
-#5 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
-#6 /var/www/swoole-live/server/ws.php(75): think\App->run()
+#2 /var/www/html/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
+#3 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#4 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#5 /var/www/html/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#6 /var/www/html/swoole-live/server/ws.php(75): think\App->run()
 #7 {main}
-  thrown[/var/www/swoole-live/application/admin/controller/Live.php:13]
-[ 2018-06-04T13:34:11+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+  thrown[/var/www/html/swoole-live/application/admin/controller/Live.php:13]
+[ 2018-06-04T13:34:11+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:34:11+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -244,14 +244,14 @@ Stack trace:
 )
 [ 2018-06-04T13:34:11+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:34:12+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:34:12+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:34:12+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:34:12+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:34:12+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:34:28+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:34:28+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:34:28+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:34:28+08:00 ][ info ] [ HEADER ] array (
@@ -261,18 +261,18 @@ Stack trace:
   'team_id' => '1',
   'content' => '234',
 )
-[ 2018-06-04T13:34:28+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined index: http_server in /var/www/swoole-live/application/admin/controller/Live.php:13
+[ 2018-06-04T13:34:28+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined index: http_server in /var/www/html/swoole-live/application/admin/controller/Live.php:13
 Stack trace:
-#0 /var/www/swoole-live/application/admin/controller/Live.php(13): think\Error::appError(8, 'Undefined index...', '/var/www/swoole...', 13, Array)
+#0 /var/www/html/swoole-live/application/admin/controller/Live.php(13): think\Error::appError(8, 'Undefined index...', '/var/www/swoole...', 13, Array)
 #1 [internal function]: app\admin\controller\Live->push()
-#2 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
-#3 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
-#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
-#5 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
-#6 /var/www/swoole-live/server/ws.php(75): think\App->run()
+#2 /var/www/html/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
+#3 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#4 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#5 /var/www/html/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#6 /var/www/html/swoole-live/server/ws.php(75): think\App->run()
 #7 {main}
-  thrown[/var/www/swoole-live/application/admin/controller/Live.php:13]
-[ 2018-06-04T13:34:28+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+  thrown[/var/www/html/swoole-live/application/admin/controller/Live.php:13]
+[ 2018-06-04T13:34:28+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:34:28+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -280,7 +280,7 @@ Stack trace:
 )
 [ 2018-06-04T13:34:28+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:34:51+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:34:51+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:34:51+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:34:51+08:00 ][ info ] [ HEADER ] array (
@@ -290,18 +290,18 @@ Stack trace:
   'team_id' => '1',
   'content' => '234',
 )
-[ 2018-06-04T13:34:51+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined index: http_server in /var/www/swoole-live/application/admin/controller/Live.php:13
+[ 2018-06-04T13:34:51+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined index: http_server in /var/www/html/swoole-live/application/admin/controller/Live.php:13
 Stack trace:
-#0 /var/www/swoole-live/application/admin/controller/Live.php(13): think\Error::appError(8, 'Undefined index...', '/var/www/swoole...', 13, Array)
+#0 /var/www/html/swoole-live/application/admin/controller/Live.php(13): think\Error::appError(8, 'Undefined index...', '/var/www/swoole...', 13, Array)
 #1 [internal function]: app\admin\controller\Live->push()
-#2 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
-#3 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
-#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
-#5 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
-#6 /var/www/swoole-live/server/ws.php(75): think\App->run()
+#2 /var/www/html/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
+#3 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#4 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#5 /var/www/html/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#6 /var/www/html/swoole-live/server/ws.php(75): think\App->run()
 #7 {main}
-  thrown[/var/www/swoole-live/application/admin/controller/Live.php:13]
-[ 2018-06-04T13:34:51+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+  thrown[/var/www/html/swoole-live/application/admin/controller/Live.php:13]
+[ 2018-06-04T13:34:51+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:34:51+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -309,7 +309,7 @@ Stack trace:
 )
 [ 2018-06-04T13:34:51+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:34:53+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:34:53+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:34:53+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:34:53+08:00 ][ info ] [ HEADER ] array (
@@ -319,18 +319,18 @@ Stack trace:
   'team_id' => '1',
   'content' => '234',
 )
-[ 2018-06-04T13:34:53+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined index: http_server in /var/www/swoole-live/application/admin/controller/Live.php:13
+[ 2018-06-04T13:34:53+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined index: http_server in /var/www/html/swoole-live/application/admin/controller/Live.php:13
 Stack trace:
-#0 /var/www/swoole-live/application/admin/controller/Live.php(13): think\Error::appError(8, 'Undefined index...', '/var/www/swoole...', 13, Array)
+#0 /var/www/html/swoole-live/application/admin/controller/Live.php(13): think\Error::appError(8, 'Undefined index...', '/var/www/swoole...', 13, Array)
 #1 [internal function]: app\admin\controller\Live->push()
-#2 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
-#3 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
-#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
-#5 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
-#6 /var/www/swoole-live/server/ws.php(75): think\App->run()
+#2 /var/www/html/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
+#3 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#4 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#5 /var/www/html/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#6 /var/www/html/swoole-live/server/ws.php(75): think\App->run()
 #7 {main}
-  thrown[/var/www/swoole-live/application/admin/controller/Live.php:13]
-[ 2018-06-04T13:34:53+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+  thrown[/var/www/html/swoole-live/application/admin/controller/Live.php:13]
+[ 2018-06-04T13:34:53+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:34:53+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -338,17 +338,9 @@ Stack trace:
 )
 [ 2018-06-04T13:34:53+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
-[ info ] [ LOG ] INIT File
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ ROUTE ] array (
-)
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ HEADER ] array (
-)
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ PARAM ] array (
-)
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -356,7 +348,7 @@ Stack trace:
 )
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -364,7 +356,7 @@ Stack trace:
 )
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -372,7 +364,7 @@ Stack trace:
 )
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -380,7 +372,7 @@ Stack trace:
 )
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -388,7 +380,7 @@ Stack trace:
 )
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -396,7 +388,7 @@ Stack trace:
 )
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -404,7 +396,15 @@ Stack trace:
 )
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-06-04T13:37:57+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -418,21 +418,21 @@ Stack trace:
 )
 [ 2018-06-04T13:37:57+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:37:59+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:37:59+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:37:59+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:37:59+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:37:59+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:38:13+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:38:13+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:38:13+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:38:13+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:38:13+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:38:21+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:38:21+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:38:21+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:38:21+08:00 ][ info ] [ HEADER ] array (
@@ -442,17 +442,17 @@ Stack trace:
   'team_id' => '1',
   'content' => '345',
 )
-[ 2018-06-04T13:38:21+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client. in /var/www/swoole-live/application/admin/controller/Live.php:13
+[ 2018-06-04T13:38:21+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client. in /var/www/html/swoole-live/application/admin/controller/Live.php:13
 Stack trace:
 #0 [internal function]: think\Error::appError(2, 'Swoole\\WebSocke...', '/var/www/swoole...', 13, Array)
-#1 /var/www/swoole-live/application/admin/controller/Live.php(13): Swoole\WebSocket\Server->push(2, 'hello, push dat...')
+#1 /var/www/html/swoole-live/application/admin/controller/Live.php(13): Swoole\WebSocket\Server->push(2, 'hello, push dat...')
 #2 [internal function]: app\admin\controller\Live->push()
-#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
-#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
-#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
-#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
-#7 /var/www/swoole-live/server/ws.php(75): think\App->run([/var/www/swoole-live/application/admin/controller/Live.php:13]
-[ 2018-06-04T13:38:21+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+#3 /var/www/html/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
+#4 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/html/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/html/swoole-live/server/ws.php(75): think\App->run([/var/www/html/swoole-live/application/admin/controller/Live.php:13]
+[ 2018-06-04T13:38:21+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:38:21+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -460,14 +460,14 @@ Stack trace:
 )
 [ 2018-06-04T13:38:21+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:38:42+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:38:42+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:38:42+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:38:42+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:38:42+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:38:45+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:38:45+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:38:45+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:38:45+08:00 ][ info ] [ HEADER ] array (
@@ -477,17 +477,17 @@ Stack trace:
   'team_id' => '0',
   'content' => '',
 )
-[ 2018-06-04T13:38:45+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client. in /var/www/swoole-live/application/admin/controller/Live.php:13
+[ 2018-06-04T13:38:45+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client. in /var/www/html/swoole-live/application/admin/controller/Live.php:13
 Stack trace:
 #0 [internal function]: think\Error::appError(2, 'Swoole\\WebSocke...', '/var/www/swoole...', 13, Array)
-#1 /var/www/swoole-live/application/admin/controller/Live.php(13): Swoole\WebSocket\Server->push(2, 'hello, push dat...')
+#1 /var/www/html/swoole-live/application/admin/controller/Live.php(13): Swoole\WebSocket\Server->push(2, 'hello, push dat...')
 #2 [internal function]: app\admin\controller\Live->push()
-#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
-#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
-#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
-#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
-#7 /var/www/swoole-live/server/ws.php(75): think\App->run([/var/www/swoole-live/application/admin/controller/Live.php:13]
-[ 2018-06-04T13:38:45+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+#3 /var/www/html/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
+#4 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/html/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/html/swoole-live/server/ws.php(75): think\App->run([/var/www/html/swoole-live/application/admin/controller/Live.php:13]
+[ 2018-06-04T13:38:45+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:38:45+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -495,28 +495,28 @@ Stack trace:
 )
 [ 2018-06-04T13:38:45+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:40:47+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:40:47+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:40:47+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:40:47+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:40:47+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:40:48+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:40:48+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:40:48+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:40:48+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:40:48+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:40:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:40:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:40:49+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:40:49+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:40:49+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:40:52+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:40:52+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:40:52+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:40:52+08:00 ][ info ] [ HEADER ] array (
@@ -526,17 +526,17 @@ Stack trace:
   'team_id' => '0',
   'content' => '345',
 )
-[ 2018-06-04T13:40:52+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client. in /var/www/swoole-live/application/admin/controller/Live.php:13
+[ 2018-06-04T13:40:52+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client. in /var/www/html/swoole-live/application/admin/controller/Live.php:13
 Stack trace:
 #0 [internal function]: think\Error::appError(2, 'Swoole\\WebSocke...', '/var/www/swoole...', 13, Array)
-#1 /var/www/swoole-live/application/admin/controller/Live.php(13): Swoole\WebSocket\Server->push(2, 'hello, push dat...')
+#1 /var/www/html/swoole-live/application/admin/controller/Live.php(13): Swoole\WebSocket\Server->push(2, 'hello, push dat...')
 #2 [internal function]: app\admin\controller\Live->push()
-#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
-#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
-#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
-#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
-#7 /var/www/swoole-live/server/ws.php(75): think\App->run([/var/www/swoole-live/application/admin/controller/Live.php:13]
-[ 2018-06-04T13:40:52+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+#3 /var/www/html/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
+#4 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/html/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/html/swoole-live/server/ws.php(75): think\App->run([/var/www/html/swoole-live/application/admin/controller/Live.php:13]
+[ 2018-06-04T13:40:52+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:40:52+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -544,7 +544,7 @@ Stack trace:
 )
 [ 2018-06-04T13:40:52+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:41:13+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:41:13+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:41:13+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:41:13+08:00 ][ info ] [ HEADER ] array (
@@ -554,17 +554,17 @@ Stack trace:
   'team_id' => '0',
   'content' => '345',
 )
-[ 2018-06-04T13:41:13+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client. in /var/www/swoole-live/application/admin/controller/Live.php:13
+[ 2018-06-04T13:41:13+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client. in /var/www/html/swoole-live/application/admin/controller/Live.php:13
 Stack trace:
 #0 [internal function]: think\Error::appError(2, 'Swoole\\WebSocke...', '/var/www/swoole...', 13, Array)
-#1 /var/www/swoole-live/application/admin/controller/Live.php(13): Swoole\WebSocket\Server->push(2, 'hello, push dat...')
+#1 /var/www/html/swoole-live/application/admin/controller/Live.php(13): Swoole\WebSocket\Server->push(2, 'hello, push dat...')
 #2 [internal function]: app\admin\controller\Live->push()
-#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
-#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
-#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
-#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
-#7 /var/www/swoole-live/server/ws.php(75): think\App->run([/var/www/swoole-live/application/admin/controller/Live.php:13]
-[ 2018-06-04T13:41:13+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+#3 /var/www/html/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
+#4 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/html/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/html/swoole-live/server/ws.php(75): think\App->run([/var/www/html/swoole-live/application/admin/controller/Live.php:13]
+[ 2018-06-04T13:41:13+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:41:13+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -572,25 +572,17 @@ Stack trace:
 )
 [ 2018-06-04T13:41:13+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
-[ info ] [ LOG ] INIT File
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
-)
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ HEADER ] array (
-)
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ PARAM ] array (
-)
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -598,7 +590,7 @@ Stack trace:
 )
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -606,19 +598,7 @@ Stack trace:
 )
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
-)
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ HEADER ] array (
-)
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ PARAM ] array (
-)
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
-)
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ HEADER ] array (
-)
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ PARAM ] array (
-)
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -632,7 +612,27 @@ Stack trace:
 )
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ HEADER ] array (
@@ -642,7 +642,7 @@ Stack trace:
   'team_id' => '0',
   'content' => '345',
 )
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -656,24 +656,24 @@ Stack trace:
 )
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:41:15+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined index: http_server in /var/www/swoole-live/application/admin/controller/Live.php:13
+[ 2018-06-04T13:41:15+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Undefined index: http_server in /var/www/html/swoole-live/application/admin/controller/Live.php:13
 Stack trace:
-#0 /var/www/swoole-live/application/admin/controller/Live.php(13): think\Error::appError(8, 'Undefined index...', '/var/www/swoole...', 13, Array)
+#0 /var/www/html/swoole-live/application/admin/controller/Live.php(13): think\Error::appError(8, 'Undefined index...', '/var/www/swoole...', 13, Array)
 #1 [internal function]: app\admin\controller\Live->push()
-#2 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
-#3 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
-#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
-#5 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
-#6 /var/www/swoole-live/server/ws.php(75): think\App->run()
+#2 /var/www/html/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
+#3 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#4 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#5 /var/www/html/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#6 /var/www/html/swoole-live/server/ws.php(75): think\App->run()
 #7 {main}
-  thrown[/var/www/swoole-live/application/admin/controller/Live.php:13]
+  thrown[/var/www/html/swoole-live/application/admin/controller/Live.php:13]
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:41:15+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -681,17 +681,9 @@ Stack trace:
 )
 [ 2018-06-04T13:41:15+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
-[ info ] [ LOG ] INIT File
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ ROUTE ] array (
-)
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ HEADER ] array (
-)
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ PARAM ] array (
-)
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -699,7 +691,7 @@ Stack trace:
 )
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -707,7 +699,7 @@ Stack trace:
 )
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -715,7 +707,7 @@ Stack trace:
 )
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -723,7 +715,7 @@ Stack trace:
 )
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -731,7 +723,7 @@ Stack trace:
 )
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -739,7 +731,7 @@ Stack trace:
 )
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -747,7 +739,15 @@ Stack trace:
 )
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-06-04T13:43:16+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ ROUTE ] array (
 )
@@ -761,21 +761,21 @@ Stack trace:
 )
 [ 2018-06-04T13:43:16+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:43:19+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:43:19+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:43:19+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:43:19+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:43:19+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:43:30+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:43:30+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:43:30+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:43:30+08:00 ][ info ] [ HEADER ] array (
 )
 [ 2018-06-04T13:43:30+08:00 ][ info ] [ PARAM ] array (
 )
-[ 2018-06-04T13:43:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-06-04T13:43:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ 2018-06-04T13:43:49+08:00 ][ info ] [ ROUTE ] array (
 )
 [ 2018-06-04T13:43:49+08:00 ][ info ] [ HEADER ] array (
@@ -785,17 +785,17 @@ Stack trace:
   'team_id' => '0',
   'content' => '46',
 )
-[ 2018-06-04T13:43:49+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client. in /var/www/swoole-live/application/admin/controller/Live.php:13
+[ 2018-06-04T13:43:49+08:00 ][ error ] [1]Uncaught think\exception\ErrorException: Swoole\WebSocket\Server::push(): the connected client of connection[2] is not a websocket client. in /var/www/html/swoole-live/application/admin/controller/Live.php:13
 Stack trace:
 #0 [internal function]: think\Error::appError(2, 'Swoole\\WebSocke...', '/var/www/swoole...', 13, Array)
-#1 /var/www/swoole-live/application/admin/controller/Live.php(13): Swoole\WebSocket\Server->push(2, 'hello, push dat...')
+#1 /var/www/html/swoole-live/application/admin/controller/Live.php(13): Swoole\WebSocket\Server->push(2, 'hello, push dat...')
 #2 [internal function]: app\admin\controller\Live->push()
-#3 /var/www/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
-#4 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
-#5 /var/www/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
-#6 /var/www/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
-#7 /var/www/swoole-live/server/ws.php(75): think\App->run([/var/www/swoole-live/application/admin/controller/Live.php:13]
-[ 2018-06-04T13:43:49+08:00 ][ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+#3 /var/www/html/swoole-live/thinkphp/library/think/Container.php(186): ReflectionMethod->invokeArgs(Object(app\admin\controller\Live), Array)
+#4 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Module.php(126): think\Container->invokeMethod(Array, Array)
+#5 /var/www/html/swoole-live/thinkphp/library/think/route/dispatch/Url.php(26): think\route\dispatch\Module->run()
+#6 /var/www/html/swoole-live/thinkphp/library/think/App.php(309): think\route\dispatch\Url->run()
+#7 /var/www/html/swoole-live/server/ws.php(75): think\App->run([/var/www/html/swoole-live/application/admin/controller/Live.php:13]
+[ 2018-06-04T13:43:49+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
 [ info ] [ LOG ] INIT File
 [ 2018-06-04T13:43:49+08:00 ][ info ] [ ROUTE ] array (
 )

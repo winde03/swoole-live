@@ -14,7 +14,7 @@ class Http
 
         $this->http->set([
             'enable_static_handler' => true,
-            'document_root' => "/var/www/swoole-live/public/static",
+            'document_root' => "/var/www/html/swoole-live/public/static",
             'worker_num' => 4,
             'task_worker_num' => 4,
         ]);
