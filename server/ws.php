@@ -1,10 +1,14 @@
 <?php
 
+/**
+ * Class Ws
+ * websocket基于http，执行WS可拥有HTTP的特性，可通过http形式访问
+ */
 class Ws
 {
 
     CONST HOST = "0.0.0.0";
-    CONST PORT = 8812;
+    CONST PORT = 8811;
 
     public $ws = null;
 
@@ -15,8 +19,8 @@ class Ws
         $this->ws->set([
             'enable_static_handler' => true,
             'document_root' => "/var/www/swoole-live/public/static",
-            'task_worker_num' => 5,
-            'worker_num' => 5
+            'task_worker_num' => 4,
+            'worker_num' => 4
         ]);
 
         $this->ws->on("open", [$this, 'onOpen']);
@@ -72,13 +76,18 @@ class Ws
                 $_POST[$k] = $v;
             }
         }
-        $_POST['ws_server'] = $this->ws;
+        $_POST['http_server'] = $this->ws;
 
         ob_start();
         // 执行应用并响应
-        think\Container::get('app', [APP_PATH])
-            ->run()
-            ->send();
+        try {
+            think\Container::get('app', [APP_PATH])
+                ->run()
+                ->send();
+        } catch (\Exception $e) {
+
+        }
+
         $res = ob_get_contents();
         ob_end_clean();
         $response->end($res);

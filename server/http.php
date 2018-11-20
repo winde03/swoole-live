@@ -15,7 +15,8 @@ class Http
         $this->http->set([
             'enable_static_handler' => true,
             'document_root' => "/var/www/swoole-live/public/static",
-            'task_worker_num' => 5,
+            'worker_num' => 4,
+            'task_worker_num' => 4,
         ]);
 
         $this->http->on('request', [$this, 'onRequest']);
@@ -27,6 +28,11 @@ class Http
         $this->http->start();
     }
 
+    /**
+     * request回调，处理输入的请求
+     * @param $request
+     * @param $response
+     */
     public function onRequest($request, $response)
     {
         $_SERVER = [];
@@ -64,6 +70,11 @@ class Http
         $response->end($res);
     }
 
+    /**
+     * onWorkerStart回调
+     * @param $server
+     * @param $woker_id
+     */
     public function onWorkerStart($server, $woker_id)
     {
         // 定义应用目录
@@ -75,10 +86,10 @@ class Http
 
     public function onTask($serv, $taskId, $wokerId, $data)
     {
-        //分发task任务，不同任务对应不同逻辑
-        $obj = new app\common\lib\task\Task();
-        $method = $obj->$data['method'];
-        $flag = $obj->$method[$data['data']];
+        //分发task任务，不同任务对应不同逻辑(重点）
+        $obj = new app \common\lib\task\Task;
+        $method = $data['method'];
+        $flag = $obj->$method($data['data']);
         return $flag;
 
 

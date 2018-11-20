@@ -8,8 +8,7 @@ class Index
 {
     public function index()
     {
-        print_r($_GET);
-        return '12e121561e2165';
+        return '';
     }
 
     public function hello($name = 'ThinkPHP5')

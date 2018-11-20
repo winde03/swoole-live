@@ -13,6 +13,7 @@ class Predis
 
     public static function getInstance()
     {
+        // connect redis
         if (empty(self::$_instance)) {
             self::$_instance = new self();
         }
@@ -39,7 +40,7 @@ class Predis
         if (!$time) {
             return $this->redis->set($key, $value);
         } else {
-            return $this->redis->setex($key, $time, $value);
+            return $this->redis->setex($key, $time, $value);  // setex：带失效时间
         }
     }
 
