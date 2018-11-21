@@ -51,4 +51,42 @@ class Predis
         }
         return $this->redis->get($key);
     }
+
+//    /**
+//     * 添加元素到redis有序集合
+//     * @param $key 集合名称
+//     * @param $value 元素
+//     * @return mixed
+//     */
+//    public function sAdd($key, $value)
+//    {
+//        return $this->redis->sAdd($key, $value);
+//    }
+//
+//    /**
+//     * 删除集合元素
+//     * @param $key
+//     * @param $value
+//     * @return int
+//     */
+//    public function sRem($key, $value)
+//    {
+//        return $this->redis->sRem($key, $value);
+//    }
+//
+//    public function sMembers($key)
+//    {
+//        return $this->redis->sMembers($key);
+//    }*/
+
+    /**
+     * 当调用类中不存在的方法时，就会调用__call()
+     * 适用于基础类库的编写
+     * @param $name
+     * @param $arguments
+     */
+    public function __call($name, $arguments)
+    {
+        return $this->redis->$name($arguments[0], $arguments[1]);
+    }
 }

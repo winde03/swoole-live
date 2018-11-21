@@ -14,7 +14,8 @@ class Ws
 
     public function __construct()
     {
-        // 获取 key 有值 del
+        // TODO 获取sMembers 有值应清空
+
         $this->ws = new swoole_websocket_server(self::HOST, self::PORT);
 
         $this->ws->set([
@@ -38,6 +39,8 @@ class Ws
     public function onOpen($ws, $request)
     {
         var_dump($request->fd);
+        //记录连接用户：fd放入redis有序集合里
+        \app\common\lib\redis\Predis::getInstance()->sAdd(config("redis.live_game_key"), $request->fd);
     }
 
     public function onMessage($ws, $frame)
@@ -129,6 +132,8 @@ class Ws
     public function onClose($ws, $fd)
     {
         echo "Close:{$fd}\n";
+        // fd从redis集合删除
+        \app\common\lib\redis\Predis::getInstance()->sRem(config("redis.live_game_key"), $fd);
     }
 }
 

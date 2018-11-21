@@ -1,19 +1,22 @@
-var wsUrl = "ws://ltfnevergiveup.cn:8811";
+var wsServer = 'ws://ltfnevergiveup.cn:8811';
+var websocket = new WebSocket(wsServer);
+websocket.onopen = function (evt) {
+    websocket.send("hello!");
+    console.log("Connected to WebSocket server.");
+};
 
-var webSocket = new WebSocket(wsUrl);
+websocket.onclose = function (evt) {
+    console.log("Disconnected");
+};
 
-webSocket.onopen = function (evt) {
-    console.log("content-swoole-success");
-}
+websocket.onmessage = function (evt) {
+    console.log('Retrieved data from server: ' + evt.data);
+};
 
-webSocket.onmessage = function (evt) {
-    console.log('ws-server-return-data'+evt.data);
-}
+websocket.onclose = function (evt) {
+    console.log('closed');
+};
 
-webSocket.onclose = function (evt) {
-    console.log('close');
-}
-
-webSocket.onerror = function (evt, e) {
-    console.log('error:'+evt.data);
-}
+websocket.onerror = function (evt, e) {
+    console.log('Error occured: ' + evt.data);
+};
