@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>LTF赛事直播-主持人页面</title>
+    <title>赛事直播-主持人页面</title>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8"/>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/xadmin.css">
     <link rel="stylesheet" type="text/css" href="../webuploader/webuploader.css">
@@ -16,76 +16,76 @@
     <script type="text/javascript" src="./js/xadmin.js"></script>
     <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
     <!--[if lt IE 9]>
-    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
-    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+      <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript" src="../webuploader/webuploader.js"></script>
 
-</head>
+  </head>
 
-<body>
-<div class="x-body">
-    <form class="layui-form">
+  <body>
+    <div class="x-body">
+        <form class="layui-form">
 
-        <div class="layui-form-item">
+          <div class="layui-form-item">
             <label for="username" class="layui-form-label">
-                <span class="x-red">*</span>第几节
+              <span class="x-red">*</span>第几节
             </label>
             <div class="layui-input-inline">
-                <select id="type" name="type" class="valid">
-                    <option value="1">第一节</option>
-                    <option value="2">第二节</option>
-                    <option value="3">第三节</option>
-                    <option value="4">第四节</option>
-                </select>
+              <select id="type" name="type" class="valid">
+                <option value="1">第一节</option>
+                <option value="2">第二节</option>
+                <option value="3">第三节</option>
+                <option value="4">第四节</option>
+              </select>
             </div>
-        </div>
-        <div class="layui-form-item">
+          </div>
+          <div class="layui-form-item">
             <label for="username" class="layui-form-label">
-                <span class="x-red">*</span>球队
+              <span class="x-red">*</span>球队
             </label>
             <div class="layui-input-inline">
-                <select id="team_id" name="team_id" class="valid">
-                    <option value="0">请选择</option>
-                    <option value="1">马刺</option>
-                    <option value="4">火箭</option>
-                </select>
+              <select id="team_id" name="team_id" class="valid">
+                <option value="0">请选择</option>
+                <option value="1">马刺</option>
+                <option value="4">火箭</option>
+              </select>
             </div>
-        </div>
+          </div>
 
 
-        <div class="layui-form-item layui-form-text">
-            <label for="desc" class="layui-form-label">
+          <div class="layui-form-item layui-form-text">
+              <label for="desc" class="layui-form-label">
                 赛况内容
-            </label>
-            <div class="layui-input-block">
-                <textarea placeholder="请输入内容" id="content" name="content" class="layui-textarea"></textarea>
-            </div>
-        </div>
+              </label>
+              <div class="layui-input-block">
+                  <textarea placeholder="请输入内容" id="content" name="content" class="layui-textarea"></textarea>
+              </div>
+          </div>
 
-        <div class="layui-form-item layui-form-text">
+          <div class="layui-form-item layui-form-text">
             <label for="desc" class="layui-form-label">
-                赛况图
+              赛况图
             </label>
             <!--dom结构部分-->
             <div id="uploader-demo">
-                <!--用来存放item-->
-                <div id="fileList" class="uploader-list"></div>
-                <div id="filePicker">选择图片</div>
+              <!--用来存放item-->
+              <div id="fileList" class="uploader-list"></div>
+              <div id="filePicker">选择图片</div>
             </div>
 
-        </div>
+          </div>
 
-        <div class="layui-form-item">
-            <label for="L_repass" class="layui-form-label">
-            </label>
-            <button type="submit" class="layui-btn" lay-filter="add" id="submit-btn" lay-submit="">
-                增加
-            </button>
-        </div>
-    </form>
-</div>
-<script>
+          <div class="layui-form-item">
+              <label for="L_repass" class="layui-form-label">
+              </label>
+              <button  type="submit" class="layui-btn"  lay-filter="add" id="submit-btn" lay-submit="">
+                  增加
+              </button>
+          </div>
+      </form>
+    </div>
+    <script>
       $list = $("#fileList");
       ratio = window.devicePixelRatio || 1,
 
@@ -211,4 +211,5 @@
         s.parentNode.insertBefore(hm, s);
       })();</script>
   </body>
+
 </html>

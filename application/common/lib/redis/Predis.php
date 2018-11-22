@@ -23,7 +23,7 @@ class Predis
     private function __construct()
     {
         $this->redis = new \Redis();
-        $result = $this->redis->connect(config('redis.host'), config('redis.port'), config('redis.timeOut'));
+        $result = $this->redis->connect('127.0.0.1',6379, 5);
         if ($result === false) {
             throw new \Exception('redis connect error');
         }
@@ -52,32 +52,32 @@ class Predis
         return $this->redis->get($key);
     }
 
-//    /**
-//     * 添加元素到redis有序集合
-//     * @param $key 集合名称
-//     * @param $value 元素
-//     * @return mixed
-//     */
-//    public function sAdd($key, $value)
-//    {
-//        return $this->redis->sAdd($key, $value);
-//    }
-//
-//    /**
-//     * 删除集合元素
-//     * @param $key
-//     * @param $value
-//     * @return int
-//     */
-//    public function sRem($key, $value)
-//    {
-//        return $this->redis->sRem($key, $value);
-//    }
-//
-//    public function sMembers($key)
-//    {
-//        return $this->redis->sMembers($key);
-//    }*/
+    /**
+     * 添加元素到redis有序集合
+     * @param $key 集合名称
+     * @param $value 元素
+     * @return mixed
+     */
+    public function sAdd($key, $value)
+    {
+        return $this->redis->sAdd($key, $value);
+    }
+
+    /**
+     * 删除集合元素
+     * @param $key
+     * @param $value
+     * @return int
+     */
+    public function sRem($key, $value)
+    {
+        return $this->redis->sRem($key, $value);
+    }
+
+    public function sMembers($key)
+    {
+        return $this->redis->sMembers($key);
+    }
 
     /**
      * 当调用类中不存在的方法时，就会调用__call()

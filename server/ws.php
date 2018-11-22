@@ -1,5 +1,5 @@
 <?php
-
+require_once __DIR__."/../application/common/lib/redis/Predis.php";
 /**
  * Class Ws
  * websocket基于http，执行WS可拥有HTTP的特性，可通过http形式访问
@@ -14,7 +14,11 @@ class Ws
 
     public function __construct()
     {
-        // TODO 获取sMembers 有值应清空
+        // 获取sMembers 有值应清空
+        $clients = \app\common\lib\redis\Predis::getInstance()->sMembers('live_game_key');
+        foreach ($clients as $fd) {
+            \app\common\lib\redis\Predis::getInstance()->sRem("live_game_key", $fd);
+        }
 
         $this->ws = new swoole_websocket_server(self::HOST, self::PORT);
 
@@ -46,7 +50,7 @@ class Ws
     public function onMessage($ws, $frame)
     {
         echo "ser-push-message:{$frame->data}\n";
-        $ws->push($frame->fd, 'server-push:' . date('Y-m-d H:i:s'));
+        $ws->push($frame->fd, "server-push:" . date("Y-m-d H:i:s"));
     }
 
     public function onRequest($request, $response)
@@ -110,8 +114,8 @@ class Ws
     {
         //分发task任务，不同任务对应不同逻辑
         $obj = new app\common\lib\task\Task();
-        $method = $obj->$data['method'];
-        $flag = $obj->$method[$data['data']];
+        $method = $data['method'];
+        $flag = $obj->$method($data['data'], $serv);
         return $flag;
 
 
