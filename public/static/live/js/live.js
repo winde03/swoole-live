@@ -1,7 +1,6 @@
 var wsServer = 'ws://ltfnevergiveup.cn:8811';
 var websocket = new WebSocket(wsServer);
 websocket.onopen = function (evt) {
-    websocket.send("hello!");
     console.log("Connected to WebSocket server.");
 };
 

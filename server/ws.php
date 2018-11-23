@@ -9,6 +9,7 @@ class Ws
 
     CONST HOST = "0.0.0.0";
     CONST PORT = 8811;
+    CONST CHART_PORT = 8812;
 
     public $ws = null;
 
@@ -21,6 +22,8 @@ class Ws
         }
 
         $this->ws = new swoole_websocket_server(self::HOST, self::PORT);
+
+        $this->ws->listen(self::PORT, self::CHART_PORT, SWOOLE_SOCK_TCP);
 
         $this->ws->set([
             'enable_static_handler' => true,
