@@ -1,0 +1,41 @@
+---------------------------------------------------------------
+[ 2018-11-19T09:43:50+08:00 ] 172.16.16.10 120.37.184.225 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.252989s][吞吐率：3.95req/s] [内存消耗：280.70kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '__unam=6e69e6b-16560b84e5a-8c96b6-10; 8DHQ_2132_saltkey=Ocntn66c; PHPSESSID=dt99vb433pondla5gjtv66uqb4; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-19T09:43:53+08:00 ] 172.16.16.10 120.37.184.225 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.001197s][吞吐率：835.52req/s] [内存消耗：147.71kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '__unam=6e69e6b-16560b84e5a-8c96b6-10; 8DHQ_2132_saltkey=Ocntn66c; PHPSESSID=dt99vb433pondla5gjtv66uqb4; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

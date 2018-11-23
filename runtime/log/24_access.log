@@ -1,0 +1,86 @@
+date:2018-11-24 02:42:53 
+s:index/index/index?asdw=2 
+QUERY_STRING:s=index/index/index?asdw=2 
+REQUEST_METHOD:GET 
+REQUEST_URI:/ 
+PATH_INFO:/ 
+REQUEST_TIME:1542998572 
+REQUEST_TIME_FLOAT:1542998573.0933 
+SERVER_PORT:8811 
+REMOTE_PORT:21946 
+REMOTE_ADDR:121.207.61.67 
+MASTER_TIME:1542998572 
+SERVER_PROTOCOL:HTTP/1.1 
+SERVER_SOFTWARE:swoole-http-server 
+HOST:ltfnevergiveup.cn:8811 
+CONNECTION:keep-alive 
+CACHE-CONTROL:max-age=0 
+UPGRADE-INSECURE-REQUESTS:1 
+USER-AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36 
+ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8 
+ACCEPT-ENCODING:gzip, deflate 
+ACCEPT-LANGUAGE:zh-CN,zh;q=0.9 
+date:2018-11-24 02:42:54 
+REQUEST_METHOD:GET 
+REQUEST_URI:/favicon.ico 
+PATH_INFO:/favicon.ico 
+REQUEST_TIME:1542998573 
+REQUEST_TIME_FLOAT:1542998574.0705 
+SERVER_PORT:8811 
+REMOTE_PORT:21946 
+REMOTE_ADDR:121.207.61.67 
+MASTER_TIME:1542998573 
+SERVER_PROTOCOL:HTTP/1.1 
+SERVER_SOFTWARE:swoole-http-server 
+HOST:ltfnevergiveup.cn:8811 
+CONNECTION:keep-alive 
+PRAGMA:no-cache 
+CACHE-CONTROL:no-cache 
+USER-AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36 
+ACCEPT:image/webp,image/apng,image/*,*/*;q=0.8 
+REFERER:http://ltfnevergiveup.cn:8811/?s=index/index/index?asdw=2 
+ACCEPT-ENCODING:gzip, deflate 
+ACCEPT-LANGUAGE:zh-CN,zh;q=0.9 
+date:2018-11-24 02:42:54 
+s:index/index/index?asdw=2 
+QUERY_STRING:s=index/index/index?asdw=2 
+REQUEST_METHOD:GET 
+REQUEST_URI:/ 
+PATH_INFO:/ 
+REQUEST_TIME:1542998573 
+REQUEST_TIME_FLOAT:1542998574.7275 
+SERVER_PORT:8811 
+REMOTE_PORT:21946 
+REMOTE_ADDR:121.207.61.67 
+MASTER_TIME:1542998573 
+SERVER_PROTOCOL:HTTP/1.1 
+SERVER_SOFTWARE:swoole-http-server 
+HOST:ltfnevergiveup.cn:8811 
+CONNECTION:keep-alive 
+CACHE-CONTROL:max-age=0 
+UPGRADE-INSECURE-REQUESTS:1 
+USER-AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36 
+ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8 
+ACCEPT-ENCODING:gzip, deflate 
+ACCEPT-LANGUAGE:zh-CN,zh;q=0.9 
+date:2018-11-24 02:42:55 
+REQUEST_METHOD:GET 
+REQUEST_URI:/favicon.ico 
+PATH_INFO:/favicon.ico 
+REQUEST_TIME:1542998574 
+REQUEST_TIME_FLOAT:1542998575.0154 
+SERVER_PORT:8811 
+REMOTE_PORT:21946 
+REMOTE_ADDR:121.207.61.67 
+MASTER_TIME:1542998574 
+SERVER_PROTOCOL:HTTP/1.1 
+SERVER_SOFTWARE:swoole-http-server 
+HOST:ltfnevergiveup.cn:8811 
+CONNECTION:keep-alive 
+PRAGMA:no-cache 
+CACHE-CONTROL:no-cache 
+USER-AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36 
+ACCEPT:image/webp,image/apng,image/*,*/*;q=0.8 
+REFERER:http://ltfnevergiveup.cn:8811/?s=index/index/index?asdw=2 
+ACCEPT-ENCODING:gzip, deflate 
+ACCEPT-LANGUAGE:zh-CN,zh;q=0.9 

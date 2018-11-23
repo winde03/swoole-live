@@ -1,0 +1,15 @@
+---------------------------------------------------------------
+[ 2018-11-15T16:36:33+08:00 ] 172.16.16.10 220.243.136.5 GET /swoole-live/public/
+[ info ] www.ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.140356s][吞吐率：7.12req/s] [内存消耗：277.86kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltfnevergiveup.cn',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.7823.621 Mobile Safari/537.36',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

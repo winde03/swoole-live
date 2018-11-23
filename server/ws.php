@@ -1,5 +1,6 @@
 <?php
-require_once __DIR__."/../application/common/lib/redis/Predis.php";
+require_once __DIR__ . "/../application/common/lib/redis/Predis.php";
+
 /**
  * Class Ws
  * websocket基于http，执行WS可拥有HTTP的特性，可通过http形式访问
@@ -58,6 +59,13 @@ class Ws
 
     public function onRequest($request, $response)
     {
+//        去除favicon.ico 请求，减少资源损耗
+        if ($request->server['request_uri'] == '/favicon.ico') {
+            $response->status(404);
+            $response->end();
+            return ;
+        }
+
         $_SERVER = [];
         if (isset($request->server)) {
             foreach ($request->server as $k => $v) {
@@ -87,6 +95,9 @@ class Ws
                 $_POST[$k] = $v;
             }
         }
+
+//        $this->writeLog(); //取消注释则开启日志功能
+
         $_POST['http_server'] = $this->ws;
 
         ob_start();
@@ -102,6 +113,10 @@ class Ws
         $res = ob_get_contents();
         ob_end_clean();
         $response->end($res);
+    }
+
+    public function onStart($server) {
+        swoole_set_process_name("live_master");// 设置主进程名
     }
 
     public function onWorkerStart($server, $woker_id)
@@ -142,6 +157,23 @@ class Ws
         // fd从redis集合删除
         \app\common\lib\redis\Predis::getInstance()->sRem(config("redis.live_game_key"), $fd);
     }
+
+    // 用户行为记录到日志
+    public function writeLog()
+    {
+        $datas = array_merge(['date' => date('Y-m-d H:i:s')], $_GET, $_POST, $_SERVER);
+        $logs = '';
+        foreach ($datas as $key => $value) {
+            $logs = $key . ':' . $value . " ";
+            // 异步io写入
+            swoole_async_writefile(APP_PATH . "../runtime/log/" . date('Ymd') . '_access.log', $logs . PHP_EOL, function ($filename) {
+                // todo
+            }, FILE_APPEND);
+        }
+    }
 }
 
 new Ws();
+
+// 平滑重启：再不重启服务器的情况下使修改的代码生效（更新修改的文件）   执行 reload.sh
+// https://wiki.swoole.com/wiki/page/p-server/reload.html
