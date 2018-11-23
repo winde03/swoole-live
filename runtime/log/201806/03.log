@@ -1,5 +1,0 @@
----------------------------------------------------------------
-[ 2018-06-03T10:58:46+08:00 ] 172.16.16.10 112.90.82.236 GET /swoole-live/public/
-[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.007515s][吞吐率：133.07req/s] [内存消耗：86.32kb] [文件加载：29]
-[ error ] [2]include(/var/www/html/swoole-live/config/live.php): failed to open stream: Permission denied[/var/www/html/swoole-live/thinkphp/library/think/Config.php:65]
-[ info ] [ LOG ] INIT File
