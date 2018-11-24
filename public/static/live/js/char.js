@@ -9,7 +9,7 @@ websocket.onclose = function (evt) {
 };
 
 websocket.onmessage = function (evt) {
-    push(evt.data);
+    push_c(evt.data);
     console.log('Retrieved data from server: ' + evt.data);
 };
 
@@ -21,7 +21,7 @@ websocket.onerror = function (evt, e) {
     console.log('Error occured: ' + evt.data);
 };
 
-function push(data) {
+function push_c(data) {
     data = JSON.parse(data);
     html = '';
     html += ' <div class="comment">\n' +
