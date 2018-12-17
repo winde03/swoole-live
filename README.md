@@ -3,12 +3,6 @@
 
 学习重点为Swoole，代码省去了与数据库交互的内容
 
-体验地址 
-```
-http://ltfnevergiveup.cn:8811/live/detail.html
-http://ltfnevergiveup.cn:8811/admin/live.html
-```
-
 开启websocket服务
 ```
 php /swoole-live/server/ws.php 
