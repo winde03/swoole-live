@@ -17,4 +17,4 @@ php /swoole-live/server/monitor.php
 
 环境依赖：php， swoole, redis
 
-####后期优化内容：日志追踪、用户行为记录、优化http（减少资源损耗)，服务器平滑重启、负载均衡（详见/server/负载均衡.md）
+#### 后期优化内容：日志追踪、用户行为记录、优化http（减少资源损耗)，服务器平滑重启、负载均衡（详见/server/负载均衡.md）
