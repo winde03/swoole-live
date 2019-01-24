@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006~2017 http://thinkphp.cn All rights reserved.
+// | Copyright (c) 2006~2018 http://thinkphp.cn All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
@@ -16,20 +16,21 @@ use think\cache\Driver;
 class Memcached extends Driver
 {
     protected $options = [
-        'host'     => '127.0.0.1',
-        'port'     => 11211,
-        'expire'   => 0,
-        'timeout'  => 0, // 超时时间（单位：毫秒）
-        'prefix'   => '',
-        'username' => '', //账号
-        'password' => '', //密码
-        'option'   => [],
+        'host'      => '127.0.0.1',
+        'port'      => 11211,
+        'expire'    => 0,
+        'timeout'   => 0, // 超时时间（单位：毫秒）
+        'prefix'    => '',
+        'username'  => '', //账号
+        'password'  => '', //密码
+        'option'    => [],
+        'serialize' => true,
     ];
 
     /**
      * 架构函数
-     * @param array $options 缓存参数
      * @access public
+     * @param  array $options 缓存参数
      */
     public function __construct($options = [])
     {
@@ -76,7 +77,7 @@ class Memcached extends Driver
     /**
      * 判断缓存
      * @access public
-     * @param string $name 缓存变量名
+     * @param  string $name 缓存变量名
      * @return bool
      */
     public function has($name)
@@ -89,8 +90,8 @@ class Memcached extends Driver
     /**
      * 读取缓存
      * @access public
-     * @param string $name 缓存变量名
-     * @param mixed  $default 默认值
+     * @param  string $name 缓存变量名
+     * @param  mixed  $default 默认值
      * @return mixed
      */
     public function get($name, $default = false)
@@ -99,15 +100,15 @@ class Memcached extends Driver
 
         $result = $this->handler->get($this->getCacheKey($name));
 
-        return false !== $result ? $result : $default;
+        return false !== $result ? $this->unserialize($result) : $default;
     }
 
     /**
      * 写入缓存
      * @access public
-     * @param string            $name 缓存变量名
-     * @param mixed             $value  存储数据
-     * @param integer|\DateTime $expire  有效时间（秒）
+     * @param  string            $name 缓存变量名
+     * @param  mixed             $value  存储数据
+     * @param  integer|\DateTime $expire  有效时间（秒）
      * @return bool
      */
     public function set($name, $value, $expire = null)
@@ -118,15 +119,13 @@ class Memcached extends Driver
             $expire = $this->options['expire'];
         }
 
-        if ($expire instanceof \DateTime) {
-            $expire = $expire->getTimestamp() - time();
-        }
-
         if ($this->tag && !$this->has($name)) {
             $first = true;
         }
 
-        $key = $this->getCacheKey($name);
+        $key    = $this->getCacheKey($name);
+        $expire = $this->getExpireTime($expire);
+        $value  = $this->serialize($value);
 
         if ($this->handler->set($key, $value, $expire)) {
             isset($first) && $this->setTagItem($key);
@@ -139,8 +138,8 @@ class Memcached extends Driver
     /**
      * 自增缓存（针对数值缓存）
      * @access public
-     * @param string    $name 缓存变量名
-     * @param int       $step 步长
+     * @param  string    $name 缓存变量名
+     * @param  int       $step 步长
      * @return false|int
      */
     public function inc($name, $step = 1)
@@ -159,8 +158,8 @@ class Memcached extends Driver
     /**
      * 自减缓存（针对数值缓存）
      * @access public
-     * @param string    $name 缓存变量名
-     * @param int       $step 步长
+     * @param  string    $name 缓存变量名
+     * @param  int       $step 步长
      * @return false|int
      */
     public function dec($name, $step = 1)
@@ -171,17 +170,14 @@ class Memcached extends Driver
         $value = $this->handler->get($key) - $step;
         $res   = $this->handler->set($key, $value);
 
-        if (!$res) {
-            return false;
-        } else {
-            return $value;
-        }
+        return !$res ? false : $value;
     }
 
     /**
      * 删除缓存
-     * @param    string  $name 缓存变量名
-     * @param bool|false $ttl
+     * @access public
+     * @param  string       $name 缓存变量名
+     * @param  bool|false   $ttl
      * @return bool
      */
     public function rm($name, $ttl = false)
@@ -198,7 +194,7 @@ class Memcached extends Driver
     /**
      * 清除缓存
      * @access public
-     * @param string $tag 标签名
+     * @param  string $tag 标签名
      * @return bool
      */
     public function clear($tag = null)
@@ -208,7 +204,7 @@ class Memcached extends Driver
             $keys = $this->getTagItem($tag);
 
             $this->handler->deleteMulti($keys);
-            $this->rm('tag_' . md5($tag));
+            $this->rm($this->getTagKey($tag));
 
             return true;
         }
@@ -216,5 +212,68 @@ class Memcached extends Driver
         $this->writeTimes++;
 
         return $this->handler->flush();
+    }
+
+    /**
+     * 缓存标签
+     * @access public
+     * @param  string        $name 标签名
+     * @param  string|array  $keys 缓存标识
+     * @param  bool          $overlay 是否覆盖
+     * @return $this
+     */
+    public function tag($name, $keys = null, $overlay = false)
+    {
+        if (is_null($keys)) {
+            $this->tag = $name;
+        } else {
+            $tagName = $this->getTagKey($name);
+            if ($overlay) {
+                $this->handler->delete($tagName);
+            }
+
+            if (!$this->handler->has($tagName)) {
+                $this->handler->set($tagName, '');
+            }
+
+            foreach ($keys as $key) {
+                $this->handler->append($tagName, ',' . $key);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * 更新标签
+     * @access protected
+     * @param  string $name 缓存标识
+     * @return void
+     */
+    protected function setTagItem($name)
+    {
+        if ($this->tag) {
+            $tagName = $this->getTagKey($this->tag);
+
+            if ($this->handler->has($tagName)) {
+                $this->handler->append($tagName, ',' . $name);
+            } else {
+                $this->handler->set($tagName, $name);
+            }
+
+            $this->tag = null;
+        }
+    }
+
+    /**
+     * 获取标签包含的缓存标识
+     * @access public
+     * @param  string $tag 缓存标签
+     * @return array
+     */
+    public function getTagItem($tag)
+    {
+        $tagName = $this->getTagKey($tag);
+        return explode(',', trim($this->handler->get($tagName), ','));
     }
 }

@@ -1,0 +1,115 @@
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:15:34+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-12-18T23:15:38+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-12-18T23:15:38+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:15:38+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:15:38+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-12-18T23:15:58+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-12-18T23:15:58+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:15:58+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:15:58+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-12-18T23:16:01+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-12-18T23:16:01+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:16:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:16:01+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-12-18T23:16:07+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-12-18T23:16:07+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:16:07+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:16:07+08:00 ][ info ] [ PARAM ] array (
+  'type' => '3',
+  'team_id' => '1',
+  'content' => '23123',
+)
+[ 2018-12-18T23:16:19+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-12-18T23:16:19+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:16:19+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:16:19+08:00 ][ info ] [ PARAM ] array (
+  'type' => '3',
+  'team_id' => '1',
+  'content' => '23123',
+)
+[ 2018-12-18T23:16:29+08:00 ][ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ 2018-12-18T23:16:29+08:00 ][ info ] [ ROUTE ] array (
+)
+[ 2018-12-18T23:16:29+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-12-18T23:16:29+08:00 ][ info ] [ PARAM ] array (
+  'type' => '3',
+  'team_id' => '1',
+  'content' => '23123',
+)

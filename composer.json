@@ -24,5 +24,8 @@
     },
     "config": {
         "preferred-install": "dist"
+    },
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
     }
 }

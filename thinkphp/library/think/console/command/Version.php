@@ -6,15 +6,26 @@
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
-// | Author: yunwuxin <448901948@qq.com>
+// | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
+namespace think\console\command;
 
-namespace think;
+use think\console\Command;
+use think\console\Input;
+use think\console\Output;
+use think\facade\App;
 
-// ThinkPHP 引导文件
-// 加载基础文件
-require __DIR__ . '/base.php';
+class Version extends Command
+{
+    protected function configure()
+    {
+        // 指令配置
+        $this->setName('version')
+            ->setDescription('show thinkphp framework version');
+    }
 
-// 执行应用
-Container::get('app', [defined('APP_PATH') ? APP_PATH : ''])->initialize();
-Console::init();
+    protected function execute(Input $input, Output $output)
+    {
+        $output->writeln('v' . App::version());
+    }
+}

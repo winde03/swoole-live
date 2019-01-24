@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006~2017 http://thinkphp.cn All rights reserved.
+// | Copyright (c) 2006~2018 http://thinkphp.cn All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
@@ -11,25 +11,66 @@
 
 namespace think;
 
+use think\exception\ClassNotFoundException;
+
 class Loader
 {
-    // 类名映射
-    protected static $map = [];
+    /**
+     * 类名映射信息
+     * @var array
+     */
+    protected static $classMap = [];
 
-    // 类库别名
+    /**
+     * 类库别名
+     * @var array
+     */
     protected static $classAlias = [];
 
-    // PSR-4
+    /**
+     * PSR-4
+     * @var array
+     */
     private static $prefixLengthsPsr4 = [];
     private static $prefixDirsPsr4    = [];
     private static $fallbackDirsPsr4  = [];
 
-    // PSR-0
+    /**
+     * PSR-0
+     * @var array
+     */
     private static $prefixesPsr0     = [];
     private static $fallbackDirsPsr0 = [];
 
-    // 自动加载的文件
-    private static $autoloadFiles = [];
+    /**
+     * 需要加载的文件
+     * @var array
+     */
+    private static $files = [];
+
+    /**
+     * Composer安装路径
+     * @var string
+     */
+    private static $composerPath;
+
+    // 获取应用根目录
+    public static function getRootPath()
+    {
+        if ('cli' == PHP_SAPI) {
+            $scriptName = realpath($_SERVER['argv'][0]);
+        } else {
+            $scriptName = $_SERVER['SCRIPT_FILENAME'];
+        }
+
+        $path = realpath(dirname($scriptName));
+
+        if (!is_file($path . DIRECTORY_SEPARATOR . 'think')) {
+            $path = dirname($path);
+        }
+
+        return $path . DIRECTORY_SEPARATOR;
+    }
 
     // 注册自动加载机制
     public static function register($autoload = '')
@@ -37,27 +78,37 @@ class Loader
         // 注册系统自动加载
         spl_autoload_register($autoload ?: 'think\\Loader::autoload', true, true);
 
-        // 注册命名空间定义
-        self::addNamespace([
-            'think'  => __DIR__ . '/',
-            'traits' => __DIR__ . '/../traits/',
-        ]);
+        $rootPath = self::getRootPath();
 
-        $path = dirname($_SERVER['SCRIPT_FILENAME']);
-        if (PHP_SAPI == 'cli') {
-            $rootPath = realpath($path) . '/';
-        } else {
-            $rootPath = realpath($path . '/../') . '/';
-        }
-
-        // 加载类库映射文件
-        if (is_file($rootPath . 'runtime/classmap.php')) {
-            self::addClassMap(__include_file($rootPath . 'runtime/classmap.php'));
-        }
+        self::$composerPath = $rootPath . 'vendor' . DIRECTORY_SEPARATOR . 'composer' . DIRECTORY_SEPARATOR;
 
         // Composer自动加载支持
-        if (is_dir($rootPath . 'vendor/composer')) {
-            self::registerComposerLoader($rootPath . 'vendor/composer/');
+        if (is_dir(self::$composerPath)) {
+            if (is_file(self::$composerPath . 'autoload_static.php')) {
+                require self::$composerPath . 'autoload_static.php';
+
+                $declaredClass = get_declared_classes();
+                $composerClass = array_pop($declaredClass);
+
+                foreach (['prefixLengthsPsr4', 'prefixDirsPsr4', 'fallbackDirsPsr4', 'prefixesPsr0', 'fallbackDirsPsr0', 'classMap', 'files'] as $attr) {
+                    if (property_exists($composerClass, $attr)) {
+                        self::${$attr} = $composerClass::${$attr};
+                    }
+                }
+            } else {
+                self::registerComposerLoader(self::$composerPath);
+            }
+        }
+
+        // 注册命名空间定义
+        self::addNamespace([
+            'think'  => __DIR__,
+            'traits' => dirname(__DIR__) . DIRECTORY_SEPARATOR . 'traits',
+        ]);
+
+        // 加载类库映射文件
+        if (is_file($rootPath . 'runtime' . DIRECTORY_SEPARATOR . 'classmap.php')) {
+            self::addClassMap(__include_file($rootPath . 'runtime' . DIRECTORY_SEPARATOR . 'classmap.php'));
         }
 
         // 自动加载extend目录
@@ -85,14 +136,15 @@ class Loader
 
     /**
      * 查找文件
-     * @param $class
-     * @return bool
+     * @access private
+     * @param  string $class
+     * @return string|false
      */
     private static function findFile($class)
     {
-        if (!empty(self::$map[$class])) {
+        if (!empty(self::$classMap[$class])) {
             // 类库映射
-            return self::$map[$class];
+            return self::$classMap[$class];
         }
 
         // 查找 PSR-4
@@ -147,16 +199,16 @@ class Loader
             }
         }
 
-        return self::$map[$class] = false;
+        return self::$classMap[$class] = false;
     }
 
     // 注册classmap
     public static function addClassMap($class, $map = '')
     {
         if (is_array($class)) {
-            self::$map = array_merge(self::$map, $class);
+            self::$classMap = array_merge(self::$classMap, $class);
         } else {
-            self::$map[$class] = $map;
+            self::$classMap[$class] = $map;
         }
     }
 
@@ -292,12 +344,18 @@ class Loader
         }
 
         if (is_file($composerPath . 'autoload_files.php')) {
-            $includeFiles = require $composerPath . 'autoload_files.php';
-            foreach ($includeFiles as $fileIdentifier => $file) {
-                if (empty(self::$autoloadFiles[$fileIdentifier])) {
-                    __require_file($file);
-                    self::$autoloadFiles[$fileIdentifier] = true;
-                }
+            self::$files = require $composerPath . 'autoload_files.php';
+        }
+    }
+
+    // 加载composer autofile文件
+    public static function loadComposerAutoloadFiles()
+    {
+        foreach (self::$files as $fileIdentifier => $file) {
+            if (empty($GLOBALS['__composer_autoload_files'][$fileIdentifier])) {
+                __require_file($file);
+
+                $GLOBALS['__composer_autoload_files'][$fileIdentifier] = true;
             }
         }
     }
@@ -305,9 +363,10 @@ class Loader
     /**
      * 字符串命名风格转换
      * type 0 将Java风格转换为C的风格 1 将C风格转换为Java的风格
-     * @param string  $name 字符串
-     * @param integer $type 转换类型
-     * @param bool    $ucfirst 首字母是否大写（驼峰规则）
+     * @access public
+     * @param  string  $name 字符串
+     * @param  integer $type 转换类型
+     * @param  bool    $ucfirst 首字母是否大写（驼峰规则）
      * @return string
      */
     public static function parseName($name, $type = 0, $ucfirst = true)
@@ -317,8 +376,26 @@ class Loader
                 return strtoupper($match[1]);
             }, $name);
             return $ucfirst ? ucfirst($name) : lcfirst($name);
+        }
+
+        return strtolower(trim(preg_replace("/[A-Z]/", "_\\0", $name), "_"));
+    }
+
+    /**
+     * 创建工厂对象实例
+     * @access public
+     * @param  string $name         工厂类名
+     * @param  string $namespace    默认命名空间
+     * @return mixed
+     */
+    public static function factory($name, $namespace = '', ...$args)
+    {
+        $class = false !== strpos($name, '\\') ? $name : $namespace . ucwords($name);
+
+        if (class_exists($class)) {
+            return Container::getInstance()->invokeClass($class, $args);
         } else {
-            return strtolower(trim(preg_replace("/[A-Z]/", "_\\0", $name), "_"));
+            throw new ClassNotFoundException('class not exists:' . $class, $class);
         }
     }
 }

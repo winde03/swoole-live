@@ -15,13 +15,12 @@ use think\console\Command;
 use think\console\Input;
 use think\console\input\Argument;
 use think\console\Output;
-use think\Container;
+use think\facade\App;
 use think\facade\Config;
 use think\facade\Env;
 
 abstract class Make extends Command
 {
-
     protected $type;
 
     abstract protected function getStub();
@@ -46,7 +45,7 @@ abstract class Make extends Command
         }
 
         if (!is_dir(dirname($pathname))) {
-            mkdir(strtolower(dirname($pathname)), 0755, true);
+            mkdir(dirname($pathname), 0755, true);
         }
 
         file_put_contents($pathname, $this->buildClass($classname));
@@ -63,24 +62,24 @@ abstract class Make extends Command
 
         $class = str_replace($namespace . '\\', '', $name);
 
-        return str_replace(['{%className%}', '{%namespace%}', '{%app_namespace%}'], [
+        return str_replace(['{%className%}', '{%actionSuffix%}', '{%namespace%}', '{%app_namespace%}'], [
             $class,
+            Config::get('action_suffix'),
             $namespace,
-            Container::get('app')->getNamespace(),
+            App::getNamespace(),
         ], $stub);
-
     }
 
     protected function getPathName($name)
     {
-        $name = str_replace(Container::get('app')->getNamespace() . '\\', '', $name);
+        $name = str_replace(App::getNamespace() . '\\', '', $name);
 
         return Env::get('app_path') . ltrim(str_replace('\\', '/', $name), '/') . '.php';
     }
 
     protected function getClassName($name)
     {
-        $appNamespace = Container::get('app')->getNamespace();
+        $appNamespace = App::getNamespace();
 
         if (strpos($name, $appNamespace . '\\') !== false) {
             return $name;

@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006~2017 http://thinkphp.cn All rights reserved.
+// | Copyright (c) 2006~2018 http://thinkphp.cn All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
@@ -36,7 +36,7 @@ abstract class OneToOne extends Relation
     /**
      * 设置join类型
      * @access public
-     * @param string $type JOIN类型
+     * @param  string $type JOIN类型
      * @return $this
      */
     public function joinType($type)
@@ -48,79 +48,78 @@ abstract class OneToOne extends Relation
     /**
      * 预载入关联查询（JOIN方式）
      * @access public
-     * @param Query    $query       查询对象
-     * @param string   $relation    关联名
-     * @param string   $subRelation 子关联
-     * @param \Closure $closure     闭包条件
-     * @param bool     $first
+     * @param  Query    $query       查询对象
+     * @param  string   $relation    关联名
+     * @param  mixed    $field       关联字段
+     * @param  string   $joinType    JOIN方式
+     * @param  \Closure $closure     闭包条件
+     * @param  bool     $first
      * @return void
      */
-    public function eagerly(Query $query, $relation, $subRelation, $closure, $first)
+    public function eagerly(Query $query, $relation, $field, $joinType, $closure, $first)
     {
-        $name  = Loader::parseName(basename(str_replace('\\', '/', $query->getModel())));
-        $alias = $name;
+        $name = Loader::parseName(basename(str_replace('\\', '/', get_class($this->parent))));
 
         if ($first) {
             $table = $query->getTable();
-            $query->table([$table => $alias]);
+            $query->table([$table => $name]);
 
             if ($query->getOptions('field')) {
-                $field = $query->getOptions('field');
+                $masterField = $query->getOptions('field');
                 $query->removeOption('field');
             } else {
-                $field = true;
+                $masterField = true;
             }
 
-            $query->field($field, false, $table, $alias);
+            $query->field($masterField, false, $table, $name);
         }
 
         // 预载入封装
         $joinTable = $this->query->getTable();
         $joinAlias = $relation;
+        $joinType  = $joinType ?: $this->joinType;
+
         $query->via($joinAlias);
 
         if ($this instanceof BelongsTo) {
-            $query->join($joinTable . ' ' . $joinAlias, $alias . '.' . $this->foreignKey . '=' . $joinAlias . '.' . $this->localKey, $this->joinType);
+            $joinOn = $name . '.' . $this->foreignKey . '=' . $joinAlias . '.' . $this->localKey;
         } else {
-            $query->join($joinTable . ' ' . $joinAlias, $alias . '.' . $this->localKey . '=' . $joinAlias . '.' . $this->foreignKey, $this->joinType);
+            $joinOn = $name . '.' . $this->localKey . '=' . $joinAlias . '.' . $this->foreignKey;
         }
 
         if ($closure) {
             // 执行闭包查询
-            call_user_func_array($closure, [ & $query]);
+            $closure($query);
             // 使用withField指定获取关联的字段，如
             // $query->where(['id'=>1])->withField('id,name');
             if ($query->getOptions('with_field')) {
                 $field = $query->getOptions('with_field');
                 $query->removeOption('with_field');
-            } else {
-                $field = true;
             }
-        } elseif (isset($this->option['field'])) {
-            $field = $this->option['field'];
-        } else {
-            $field = true;
         }
 
-        $query->field($field, false, $joinTable, $joinAlias, $relation . '__');
+        $query->join([$joinTable => $joinAlias], $joinOn, $joinType)
+            ->field($field, false, $joinTable, $joinAlias, $relation . '__');
     }
 
     /**
      *  预载入关联查询（数据集）
-     * @param array    $resultSet
-     * @param string   $relation
-     * @param string   $subRelation
-     * @param \Closure $closure
+     * @access protected
+     * @param  array    $resultSet
+     * @param  string   $relation
+     * @param  string   $subRelation
+     * @param  \Closure $closure
      * @return mixed
      */
     abstract protected function eagerlySet(&$resultSet, $relation, $subRelation, $closure);
 
     /**
      * 预载入关联查询（数据）
-     * @param Model    $result
-     * @param string   $relation
-     * @param string   $subRelation
-     * @param \Closure $closure
+     * @access protected
+     * @param  Model    $result
+     * @param  string   $relation
+     * @param  string   $subRelation
+     * @param  \Closure $closure
      * @return mixed
      */
     abstract protected function eagerlyOne(&$result, $relation, $subRelation, $closure);
@@ -128,49 +127,51 @@ abstract class OneToOne extends Relation
     /**
      * 预载入关联查询（数据集）
      * @access public
-     * @param array    $resultSet   数据集
-     * @param string   $relation    当前关联名
-     * @param string   $subRelation 子关联名
-     * @param \Closure $closure     闭包
+     * @param  array    $resultSet   数据集
+     * @param  string   $relation    当前关联名
+     * @param  string   $subRelation 子关联名
+     * @param  \Closure $closure     闭包
+     * @param  bool     $join        是否为JOIN方式
      * @return void
      */
-    public function eagerlyResultSet(&$resultSet, $relation, $subRelation, $closure)
+    public function eagerlyResultSet(&$resultSet, $relation, $subRelation, $closure, $join = false)
     {
-        if (1 == $this->eagerlyType) {
-            // IN查询
-            $this->eagerlySet($resultSet, $relation, $subRelation, $closure);
-        } else {
-            // 模型关联组装
+        if ($join || 0 == $this->eagerlyType) {
+            // 模型JOIN关联组装
             foreach ($resultSet as $result) {
                 $this->match($this->model, $relation, $result);
             }
+        } else {
+            // IN查询
+            $this->eagerlySet($resultSet, $relation, $subRelation, $closure);
         }
     }
 
     /**
      * 预载入关联查询（数据）
      * @access public
-     * @param Model    $result      数据对象
-     * @param string   $relation    当前关联名
-     * @param string   $subRelation 子关联名
-     * @param \Closure $closure     闭包
+     * @param  Model    $result      数据对象
+     * @param  string   $relation    当前关联名
+     * @param  string   $subRelation 子关联名
+     * @param  \Closure $closure     闭包
+     * @param  bool     $join        是否为JOIN方式
      * @return void
      */
-    public function eagerlyResult(&$result, $relation, $subRelation, $closure)
+    public function eagerlyResult(&$result, $relation, $subRelation, $closure, $join = false)
     {
-        if (1 == $this->eagerlyType) {
+        if (0 == $this->eagerlyType || $join) {
+            // 模型JOIN关联组装
+            $this->match($this->model, $relation, $result);
+        } else {
             // IN查询
             $this->eagerlyOne($result, $relation, $subRelation, $closure);
-        } else {
-            // 模型关联组装
-            $this->match($this->model, $relation, $result);
         }
     }
 
     /**
      * 保存（新增）当前关联数据对象
      * @access public
-     * @param mixed $data 数据 可以使用数组 关联模型对象 和 关联对象的主键
+     * @param  mixed $data 数据 可以使用数组 关联模型对象 和 关联对象的主键
      * @return Model|false
      */
     public function save($data)
@@ -189,7 +190,7 @@ abstract class OneToOne extends Relation
     /**
      * 设置预载入方式
      * @access public
-     * @param integer $type 预载入方式 0 JOIN查询 1 IN查询
+     * @param  integer $type 预载入方式 0 JOIN查询 1 IN查询
      * @return $this
      */
     public function setEagerlyType($type)
@@ -212,7 +213,7 @@ abstract class OneToOne extends Relation
     /**
      * 绑定关联表的属性到父模型属性
      * @access public
-     * @param mixed $attr 要绑定的属性列表
+     * @param  mixed $attr 要绑定的属性列表
      * @return $this
      */
     public function bind($attr)
@@ -226,21 +227,21 @@ abstract class OneToOne extends Relation
     }
 
     /**
-     * 关联统计
+     * 获取绑定属性
      * @access public
-     * @param Model    $result  数据对象
-     * @param \Closure $closure 闭包
-     * @return integer
+     * @return array
      */
-    public function relationCount($result, $closure)
-    {}
+    public function getBindAttr()
+    {
+        return $this->bindAttr;
+    }
 
     /**
      * 一对一 关联模型预查询拼装
      * @access public
-     * @param string $model    模型名称
-     * @param string $relation 关联名
-     * @param Model  $result   模型对象实例
+     * @param  string $model    模型名称
+     * @param  string $relation 关联名
+     * @param  Model  $result   模型对象实例
      * @return void
      */
     protected function match($model, $relation, &$result)
@@ -257,9 +258,15 @@ abstract class OneToOne extends Relation
         }
 
         if (isset($list[$relation])) {
-            $relationModel = new $model($list[$relation]);
-            $relationModel->setParent(clone $result);
-            $relationModel->isUpdate(true);
+            $array = array_unique($list[$relation]);
+
+            if (count($array) == 1 && null === current($array)) {
+                $relationModel = null;
+            } else {
+                $relationModel = new $model($list[$relation]);
+                $relationModel->setParent(clone $result);
+                $relationModel->isUpdate(true);
+            }
 
             if (!empty($this->bindAttr)) {
                 $this->bindAttr($relationModel, $result, $this->bindAttr);
@@ -274,15 +281,14 @@ abstract class OneToOne extends Relation
     /**
      * 绑定关联属性到父模型
      * @access protected
-     * @param Model $model    关联模型对象
-     * @param Model $result   父模型对象
-     * @param array $bindAttr 绑定属性
+     * @param  Model $model    关联模型对象
+     * @param  Model $result   父模型对象
      * @return void
      * @throws Exception
      */
-    protected function bindAttr($model, &$result, $bindAttr)
+    protected function bindAttr($model, &$result)
     {
-        foreach ($bindAttr as $key => $attr) {
+        foreach ($this->bindAttr as $key => $attr) {
             $key = is_numeric($key) ? $attr : $key;
             if (isset($result->$key)) {
                 throw new Exception('bind attr has exists:' . $key);
@@ -295,25 +301,25 @@ abstract class OneToOne extends Relation
     /**
      * 一对一 关联模型预查询（IN方式）
      * @access public
-     * @param object        $model       关联模型对象
-     * @param array         $where       关联预查询条件
-     * @param string        $key         关联键名
-     * @param string        $relation    关联名
-     * @param string        $subRelation 子关联
-     * @param bool|\Closure $closure
+     * @param  array         $where       关联预查询条件
+     * @param  string        $key         关联键名
+     * @param  string        $relation    关联名
+     * @param  string        $subRelation 子关联
+     * @param  \Closure      $closure
      * @return array
      */
-    protected function eagerlyWhere($model, $where, $key, $relation, $subRelation = '', $closure = false)
+    protected function eagerlyWhere($where, $key, $relation, $subRelation = '', $closure = null)
     {
         // 预载入关联查询 支持嵌套预载入
         if ($closure) {
-            call_user_func_array($closure, [ & $model]);
-            if ($field = $model->getOptions('with_field')) {
-                $model->field($field)->removeOption('with_field');
+            $closure($this->query);
+
+            if ($field = $this->query->getOptions('with_field')) {
+                $this->query->field($field)->removeOption('with_field');
             }
         }
 
-        $list = $model->where($where)->with($subRelation)->select();
+        $list = $this->query->where($where)->with($subRelation)->select();
 
         // 组装模型数据
         $data = [];
@@ -325,11 +331,4 @@ abstract class OneToOne extends Relation
         return $data;
     }
 
-    /**
-     * 执行基础查询（仅执行一次）
-     * @access protected
-     * @return void
-     */
-    protected function baseQuery()
-    {}
 }

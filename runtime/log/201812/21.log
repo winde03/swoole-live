@@ -1,0 +1,40 @@
+---------------------------------------------------------------
+[ 2018-12-21T16:30:48+08:00 ] 172.16.16.10 117.24.24.37 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.195549s][吞吐率：5.11req/s] [内存消耗：281.83kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'UM_distinctid=167aadb92413b9-0194bc847c6b04-6313363-1fa400-167aadb92439db; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1543282145,1543809244,1545032336,1545186666; Hm_lvt_f5df380d5163c1cc4823c8d33ec5fa49=1544759776,1545187129,1545373589; csrf_cookie_name=5c21b4d78bcd3121f76690b4a09c81bd; CNZZDATA1271442956=1810818121-1544756893-%7C1545378585; Hm_lpvt_f5df380d5163c1cc4823c8d33ec5fa49=1545379991; ci_session=7l20nppk5a6ghpo8pqnbtbqrb2bus794',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T16:30:52+08:00 ] 172.16.16.10 117.24.24.37 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.001055s][吞吐率：947.87req/s] [内存消耗：149.23kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'UM_distinctid=167aadb92413b9-0194bc847c6b04-6313363-1fa400-167aadb92439db; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1543282145,1543809244,1545032336,1545186666; Hm_lvt_f5df380d5163c1cc4823c8d33ec5fa49=1544759776,1545187129,1545373589; csrf_cookie_name=5c21b4d78bcd3121f76690b4a09c81bd; CNZZDATA1271442956=1810818121-1544756893-%7C1545378585; Hm_lpvt_f5df380d5163c1cc4823c8d33ec5fa49=1545379991; ci_session=7l20nppk5a6ghpo8pqnbtbqrb2bus794',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

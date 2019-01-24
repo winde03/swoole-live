@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006~2017 http://thinkphp.cn All rights reserved.
+// | Copyright (c) 2006~2018 http://thinkphp.cn All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
@@ -48,17 +48,19 @@ class Mysql extends Connection
     /**
      * 解析pdo连接的dsn信息
      * @access protected
-     * @param array $config 连接信息
+     * @param  array $config 连接信息
      * @return string
      */
     protected function parseDsn($config)
     {
-        $dsn = 'mysql:dbname=' . $config['database'] . ';host=' . $config['hostname'];
-        if (!empty($config['hostport'])) {
-            $dsn .= ';port=' . $config['hostport'];
-        } elseif (!empty($config['socket'])) {
-            $dsn .= ';unix_socket=' . $config['socket'];
+        if (!empty($config['socket'])) {
+            $dsn = 'mysql:unix_socket=' . $config['socket'];
+        } elseif (!empty($config['hostport'])) {
+            $dsn = 'mysql:host=' . $config['hostname'] . ';port=' . $config['hostport'];
+        } else {
+            $dsn = 'mysql:host=' . $config['hostname'];
         }
+        $dsn .= ';dbname=' . $config['database'];
 
         if (!empty($config['charset'])) {
             $dsn .= ';charset=' . $config['charset'];
@@ -70,7 +72,7 @@ class Mysql extends Connection
     /**
      * 取得数据表的字段信息
      * @access public
-     * @param string $tableName
+     * @param  string $tableName
      * @return array
      */
     public function getFields($tableName)
@@ -109,7 +111,7 @@ class Mysql extends Connection
     /**
      * 取得数据库的表信息
      * @access public
-     * @param string $dbName
+     * @param  string $dbName
      * @return array
      */
     public function getTables($dbName = '')
@@ -129,7 +131,7 @@ class Mysql extends Connection
     /**
      * SQL性能分析
      * @access protected
-     * @param string $sql
+     * @param  string $sql
      * @return array
      */
     protected function getExplain($sql)
@@ -152,4 +154,56 @@ class Mysql extends Connection
         return true;
     }
 
+    /**
+     * 启动XA事务
+     * @access public
+     * @param  string $xid XA事务id
+     * @return void
+     */
+    public function startTransXa($xid)
+    {
+        $this->initConnect(true);
+        if (!$this->linkID) {
+            return false;
+        }
+
+        $this->execute("XA START '$xid'");
+    }
+
+    /**
+     * 预编译XA事务
+     * @access public
+     * @param  string $xid XA事务id
+     * @return void
+     */
+    public function prepareXa($xid)
+    {
+        $this->initConnect(true);
+        $this->execute("XA END '$xid'");
+        $this->execute("XA PREPARE '$xid'");
+    }
+
+    /**
+     * 提交XA事务
+     * @access public
+     * @param  string $xid XA事务id
+     * @return void
+     */
+    public function commitXa($xid)
+    {
+        $this->initConnect(true);
+        $this->execute("XA COMMIT '$xid'");
+    }
+
+    /**
+     * 回滚XA事务
+     * @access public
+     * @param  string $xid XA事务id
+     * @return void
+     */
+    public function rollbackXa($xid)
+    {
+        $this->initConnect(true);
+        $this->execute("XA ROLLBACK '$xid'");
+    }
 }

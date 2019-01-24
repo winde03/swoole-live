@@ -1,0 +1,22 @@
+---------------------------------------------------------------
+[ 2018-12-20T02:52:37+08:00 ] 172.16.16.10 203.208.60.18 GET /swoole-live/thinkphp/start.php
+[ info ] www.ltfnevergiveup.cn/swoole-live/thinkphp/start.php [运行时间：0.277854s][吞吐率：3.60req/s] [内存消耗：279.11kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/swoole-live/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltfnevergiveup.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'from' => 'googlebot(at)googlebot.com',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'accept-encoding' => 'gzip,deflate,br',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T08:53:17+08:00 ] 172.16.16.10 203.208.60.75 GET /swoole-live/thinkphp/console.php
+[ info ] www.ltfnevergiveup.cn/swoole-live/thinkphp/console.php [运行时间：0.404949s][吞吐率：2.47req/s] [内存消耗：283.30kb] [文件加载：54]
+[ error ] [8]Undefined index: argv[/var/www/html/swoole-live/thinkphp/library/think/console/Input.php:44]
+[ info ] [ LOG ] INIT File

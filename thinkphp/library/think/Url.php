@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006~2017 http://thinkphp.cn All rights reserved.
+// | Copyright (c) 2006~2018 http://thinkphp.cn All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
@@ -13,15 +13,34 @@ namespace think;
 
 class Url
 {
-    // 生成URL地址的root
+    /**
+     * 配置参数
+     * @var array
+     */
+    protected $config = [];
+
+    /**
+     * ROOT地址
+     * @var string
+     */
     protected $root;
+
+    /**
+     * 绑定检查
+     * @var bool
+     */
     protected $bindCheck;
 
+    /**
+     * 应用对象
+     * @var App
+     */
     protected $app;
 
-    public function __construct(App $app)
+    public function __construct(App $app, array $config = [])
     {
-        $this->app = $app;
+        $this->app    = $app;
+        $this->config = $config;
 
         if (is_file($app->getRuntimePath() . 'route.php')) {
             // 读取路由映射文件
@@ -30,11 +49,28 @@ class Url
     }
 
     /**
+     * 初始化
+     * @access public
+     * @param  array $config
+     * @return void
+     */
+    public function init(array $config = [])
+    {
+        $this->config = array_merge($this->config, array_change_key_case($config));
+    }
+
+    public static function __make(App $app, Config $config)
+    {
+        return new static($app, $config->pull('app'));
+    }
+
+    /**
      * URL生成 支持路由反射
-     * @param string            $url 路由地址
-     * @param string|array      $vars 参数（支持数组和字符串）a=val&b=val2... ['a'=>'val1', 'b'=>'val2']
-     * @param string|bool       $suffix 伪静态后缀，默认为true表示获取配置值
-     * @param boolean|string    $domain 是否显示域名 或者直接传入域名
+     * @access public
+     * @param  string            $url 路由地址
+     * @param  string|array      $vars 参数（支持数组和字符串）a=val&b=val2... ['a'=>'val1', 'b'=>'val2']
+     * @param  string|bool       $suffix 伪静态后缀，默认为true表示获取配置值
+     * @param  boolean|string    $domain 是否显示域名 或者直接传入域名
      * @return string
      */
     public function build($url = '', $vars = '', $suffix = true, $domain = false)
@@ -76,7 +112,10 @@ class Url
         }
 
         if ($url) {
-            $rule = $this->app['route']->getName(isset($name) ? $name : $url . (isset($info['query']) ? '?' . $info['query'] : ''));
+            $checkName   = isset($name) ? $name : $url . (isset($info['query']) ? '?' . $info['query'] : '');
+            $checkDomain = $domain && is_string($domain) ? $domain : null;
+
+            $rule = $this->app['route']->getName($checkName, $checkDomain);
 
             if (is_null($rule) && isset($info['query'])) {
                 $rule = $this->app['route']->getName($url);
@@ -87,18 +126,11 @@ class Url
             }
         }
 
-        if (!empty($rule) && $match = $this->getRuleUrl($rule, $vars)) {
+        if (!empty($rule) && $match = $this->getRuleUrl($rule, $vars, $domain)) {
             // 匹配路由命名标识
             $url = $match[0];
-            // 替换可选分隔符
-            $url = preg_replace(['/(\W)\?$/', '/(\W)\?/'], ['', '\1'], $url);
 
-            if (!empty($match[1])) {
-                $host = $this->app['config']->get('app_host') ?: $this->app['request']->host();
-                if ($domain || $match[1] != $host) {
-                    $domain = $match[1];
-                }
-            }
+            $domain = $match[1];
 
             if (!is_null($match[2])) {
                 $suffix = $match[2];
@@ -112,10 +144,8 @@ class Url
 
             if ($alias) {
                 // 别名路由解析
-                foreach ($alias as $key => $val) {
-                    if (is_array($val)) {
-                        $val = $val[0];
-                    }
+                foreach ($alias as $key => $item) {
+                    $val = $item->getRoute();
 
                     if (0 === strpos($url, $val)) {
                         $url        = $key . substr($url, strlen($val));
@@ -127,7 +157,26 @@ class Url
 
             if (!$matchAlias) {
                 // 路由标识不存在 直接解析
-                $url = $this->parseUrl($url, $domain);
+                $url = $this->parseUrl($url);
+            }
+
+            // 检测URL绑定
+            if (!$this->bindCheck) {
+                $bind = $this->app['route']->getBind($domain && is_string($domain) ? $domain : null);
+
+                if ($bind && 0 === strpos($url, $bind)) {
+                    $url = substr($url, strlen($bind) + 1);
+                } else {
+                    $binds = $this->app['route']->getBind(true);
+
+                    foreach ($binds as $key => $val) {
+                        if (is_string($val) && 0 === strpos($url, $val) && substr_count($val, '/') > 1) {
+                            $url    = substr($url, strlen($val) + 1);
+                            $domain = $key;
+                            break;
+                        }
+                    }
+                }
             }
 
             if (isset($info['query'])) {
@@ -137,21 +186,16 @@ class Url
             }
         }
 
-        // 检测URL绑定
-        if (!$this->bindCheck) {
-            $bind = $this->app['route']->getBind();
-
-            if (0 === strpos($url, $bind)) {
-                $url = substr($url, strlen($bind) + 1);
-            }
-
-        }
         // 还原URL分隔符
-        $depr = $this->app['config']->get('pathinfo_depr');
+        $depr = $this->config['pathinfo_depr'];
         $url  = str_replace('/', $depr, $url);
 
         // URL后缀
-        $suffix = in_array($url, ['/', '']) ? '' : $this->parseSuffix($suffix);
+        if ('/' == substr($url, -1) || '' == $url) {
+            $suffix = '';
+        } else {
+            $suffix = $this->parseSuffix($suffix);
+        }
 
         // 锚点
         $anchor = !empty($anchor) ? '#' . $anchor : '';
@@ -159,11 +203,11 @@ class Url
         // 参数组装
         if (!empty($vars)) {
             // 添加参数
-            if ($this->app['config']->get('url_common_param')) {
-                $vars = urldecode(http_build_query($vars));
+            if ($this->config['url_common_param']) {
+                $vars = http_build_query($vars);
                 $url .= $suffix . '?' . $vars . $anchor;
             } else {
-                $paramType = $this->app['config']->get('url_param_type');
+                $paramType = $this->config['url_param_type'];
 
                 foreach ($vars as $var => $val) {
                     if ('' !== trim($val)) {
@@ -193,7 +237,7 @@ class Url
     }
 
     // 直接解析URL地址
-    protected function parseUrl($url, &$domain)
+    protected function parseUrl($url)
     {
         $request = $this->app['request'];
 
@@ -208,21 +252,25 @@ class Url
             $url = substr($url, 1);
         } else {
             // 解析到 模块/控制器/操作
-            $module = $request->module();
-            $module = $module ? $module . '/' : '';
-
-            $controller = Loader::parseName($request->controller());
+            $module     = $request->module();
+            $module     = $module ? $module . '/' : '';
+            $controller = $request->controller();
 
             if ('' == $url) {
-                // 空字符串输出当前的 模块/控制器/操作
-                $url = $module . $controller . '/' . $request->action();
+                $action = $request->action();
             } else {
                 $path       = explode('/', $url);
-                $action     = $this->app['config']->get('url_convert') ? strtolower(array_pop($path)) : array_pop($path);
-                $controller = empty($path) ? $controller : ($this->app['config']->get('url_convert') ? Loader::parseName(array_pop($path)) : array_pop($path));
+                $action     = array_pop($path);
+                $controller = empty($path) ? $controller : array_pop($path);
                 $module     = empty($path) ? $module : array_pop($path) . '/';
-                $url        = $module . $controller . '/' . $action;
             }
+
+            if ($this->config['url_convert']) {
+                $action     = strtolower($action);
+                $controller = Loader::parseName($controller);
+            }
+
+            $url = $module . $controller . '/' . $action;
         }
 
         return $url;
@@ -235,11 +283,10 @@ class Url
             return '';
         }
 
+        $rootDomain = $this->app['request']->rootDomain();
         if (true === $domain) {
-
             // 自动判断域名
-            $domain     = $this->app['config']->get('app_host') ?: $this->app['request']->host();
-            $rootDomain = $this->app['config']->get('url_domain_root');
+            $domain = $this->config['app_host'] ?: $this->app['request']->host();
 
             $domains = $this->app['route']->getDomains();
 
@@ -269,12 +316,14 @@ class Url
                     }
                 }
             }
+        } elseif (0 !== strpos($domain, $rootDomain) && false === strpos($domain, '.')) {
+            $domain .= '.' . $rootDomain;
         }
 
         if (false !== strpos($domain, '://')) {
             $scheme = '';
         } else {
-            $scheme = $this->app['request']->isSsl() || $this->app['config']->get('is_https') ? 'https://' : 'http://';
+            $scheme = $this->app['request']->isSsl() || $this->config['is_https'] ? 'https://' : 'http://';
 
         }
 
@@ -285,7 +334,7 @@ class Url
     protected function parseSuffix($suffix)
     {
         if ($suffix) {
-            $suffix = true === $suffix ? $this->app['config']->get('url_html_suffix') : $suffix;
+            $suffix = true === $suffix ? $this->config['url_html_suffix'] : $suffix;
 
             if ($pos = strpos($suffix, '|')) {
                 $suffix = substr($suffix, 0, $pos);
@@ -296,22 +345,35 @@ class Url
     }
 
     // 匹配路由地址
-    public function getRuleUrl($rule, &$vars = [])
+    public function getRuleUrl($rule, &$vars = [], $allowDomain = '')
     {
         foreach ($rule as $item) {
-            list($url, $pattern, $domain, $suffix) = $item;
-            if (empty($pattern)) {
-                return [$url, $domain, $suffix];
+            list($url, $pattern, $domain, $suffix, $method) = $item;
+
+            if (is_string($allowDomain) && $domain != $allowDomain) {
+                continue;
             }
+
+            if (!in_array($this->app['request']->port(), [80, 443])) {
+                $domain .= ':' . $this->app['request']->port();
+            }
+
+            if (empty($pattern)) {
+                return [rtrim($url, '?/-'), $domain, $suffix];
+            }
+
+            $type = $this->config['url_common_param'];
 
             foreach ($pattern as $key => $val) {
                 if (isset($vars[$key])) {
-                    $url = str_replace(['[:' . $key . ']', '[:' . $key . '$]', '<' . $key . '?>', ':' . $key . '', ':' . $key . '$', '<' . $key . '>'], urlencode($vars[$key]), $url);
+                    $url = str_replace(['[:' . $key . ']', '<' . $key . '?>', ':' . $key, '<' . $key . '>'], $type ? $vars[$key] : urlencode($vars[$key]), $url);
                     unset($vars[$key]);
-                    $result = [$url, $domain, $suffix];
+                    $url    = str_replace(['/?', '-?'], ['/', '-'], $url);
+                    $result = [rtrim($url, '?/-'), $domain, $suffix];
                 } elseif (2 == $val) {
-                    $url    = str_replace(['/[:' . $key . ']', '/[:' . $key . '$]', '[:' . $key . ']', '[:' . $key . '$]', '<' . $key . '?>'], '', $url);
-                    $result = [$url, $domain, $suffix];
+                    $url    = str_replace(['/[:' . $key . ']', '[:' . $key . ']', '<' . $key . '?>'], '', $url);
+                    $url    = str_replace(['/?', '-?'], ['/', '-'], $url);
+                    $result = [rtrim($url, '?/-'), $domain, $suffix];
                 } else {
                     break;
                 }
@@ -329,6 +391,14 @@ class Url
     public function root($root)
     {
         $this->root = $root;
-        $this->app['request']->root($root);
+        $this->app['request']->setRoot($root);
+    }
+
+    public function __debugInfo()
+    {
+        $data = get_object_vars($this);
+        unset($data['app']);
+
+        return $data;
     }
 }
